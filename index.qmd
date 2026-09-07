@@ -4,4 +4,5 @@ title: "Juan Franco"
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<p style="text-align: center;"><img src="images/data center.jpg" alt="A data center interior" style="width: 75%;"></p>
