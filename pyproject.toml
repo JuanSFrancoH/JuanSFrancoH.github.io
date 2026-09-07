@@ -1,0 +1,23 @@
+[project]
+name = "juansfrancoh-github-io"
+version = "0.0.1"
+description = "Initial website for Juan Franco GitHub"
+authors = [
+    {name = "JSFrancoH",email = "jsebastianfh20@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy (>=2.5.3,<3.0.0)",
+    "pandas (>=3.0.5,<4.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=7.0.0,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "juansfrancoh"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
