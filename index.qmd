@@ -1,3 +1,4 @@
+cat > index.qmd << 'QMDEOF'
 ---
 title: "Juan Franco"
 jupyter: python3
@@ -34,3 +35,26 @@ spark.sparkContext.setLogLevel("ERROR")
 courses = spark.createDataFrame(
     [
         ("METAD 605",  "Operations Management"),
+        ("METAD 571S", "Business Analytics Foundations"),
+        ("METAD 616S", "Enterprise Risk Analytics"),
+        ("METAD 715S", "Quantitative and Qualitative Decision Making"),
+        ("METAD 599",  "Python and SQL for Business Analytics"),
+        ("METAD 699",  "Data Mining for Business Analytics"),
+        ("METAD 632S", "Financial Concepts"),
+        ("METAD 688",  "Big Data and Cloud Analytics for Business"),
+    ],
+    ["course_code", "course_title"],
+)
+
+courses.show(truncate=False)
+spark.stop()
+QMDEOF
+```
+
+The quoted `'QMDEOF'` means bash writes everything literally — no substitutions, backticks intact.
+
+**One thing that needs your hand:** the heredoc can't carry the final closing fence, because three backticks alone on a line would end my code block here. So after running that, open `index.qmd` in the editor and add a line at the very end containing three backticks. Then verify:
+
+```bash
+grep -c '```' index.qmd
+```

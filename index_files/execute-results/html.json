@@ -1,0 +1,12 @@
+{
+  "hash": "c07fa2e8df7b1e370dd8d60cb2977a41",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Juan Franco\"\njupyter: python3\n---\n\nHi, I'm Juan Franco. I'm a Senior Data Analyst at Royal Caribbean Group, and I'm\ncompleting a master's degree in Business Analytics at Boston University. This\nsite is my course ePortfolio for AD688, Big Data and Cloud Analytics for\nBusiness.\n\n<p style=\"text-align: center;\"><img src=\"images/data-center.jpg\" alt=\"A data center interior\" style=\"width: 75%;\"></p>\n\n## Environment check\n\nThe cell below runs PySpark directly on the AWS EC2 instance used throughout\nthis course, and lists my coursework in the Business Analytics program. METAD\n688 is the course I am currently completing.\n\n\ncourses = spark.createDataFrame(\n    [\n        (\"METAD 605\",  \"Operations Management\"),\n\n",
+    "supporting": [
+      "index_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
