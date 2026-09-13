@@ -1,6 +1,6 @@
 execute:
-  freeze: true
-  
+  freeze: auto
+
 project:
   type: website
 
