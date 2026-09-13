@@ -1,3 +1,6 @@
+execute:
+  freeze: true
+  
 project:
   type: website
 
