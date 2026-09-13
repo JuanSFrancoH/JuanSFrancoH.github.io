@@ -4,13 +4,20 @@
     "href": "index.html",
     "title": "Juan Franco",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "Hi, I’m Juan Franco. I’m a Senior Analyst Data Analyst at Royal Caribbean Group, and I’m completing an MS in Data Analytics at Boston University MET. This site is my course ePortfolio for AD688, Big Data and Cloud Analytics for Business."
+  },
+  {
+    "objectID": "index.html#environment-check",
+    "href": "index.html#environment-check",
+    "title": "Juan Franco",
+    "section": "Environment check",
+    "text": "Environment check\nThe cell below runs PySpark directly on the AWS EC2 instance used throughout this course, and builds a small DataFrame to confirm the Spark session starts and executes.\n\nfrom pyspark.sql import SparkSession\n\nspark = (\n    SparkSession.builder\n    .appName(\"PortfolioDemo\")\n    .master(\"local[*]\")\n    .getOrCreate()\n)\nspark.sparkContext.setLogLevel(\"ERROR\")\n\ncourses = spark.createDataFrame(\n    [\n        (\"AD688\", \"Big Data and Cloud Analytics for Business\", 2026),\n        (\"AD699\", \"Data Mining for Business Analytics\", 2026),\n        (\"AD632\", \"Financial Concepts\", 2025),\n    ],\n    [\"course_code\", \"course_title\", \"year\"],\n)\n\ncourses.show(truncate=False)\n\nspark.stop()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nWARNING: package sun.security.action not in java.base\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n26/09/13 14:26:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n\n[Stage 0:&gt;                                                          (0 + 1) / 1]\n\n                                                                                \n\n\n+-----------+-----------------------------------------+----+\n|course_code|course_title                             |year|\n+-----------+-----------------------------------------+----+\n|AD688      |Big Data and Cloud Analytics for Business|2026|\n|AD699      |Data Mining for Business Analytics       |2026|\n|AD632      |Financial Concepts                       |2025|\n+-----------+-----------------------------------------+----+"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "My name is Juan Franco. I currently work as a Senior Data Analyst at Royal Caribbean Group, and I am completing a master’s degree in Business Analytics at Boston University.\nMy primary interests lie in data science and machine learning. The program at BU has provided me with an excellent opportunity to learn about these fields, gain exposure to them, and, most importantly, develop hands-on experience in both areas. After completing the program, I plan to apply the skills I have learned more extensively in my current role and add significant value to my team.\nI also hope to continue expanding my knowledge in other closely related areas of technology, including software engineering. Overall, I consider myself a very curious person and a lifelong learner who enjoys understanding how things work. Therefore, I hope to continue learning and applying my knowledge even after completing my master’s degree."
   }
 ]

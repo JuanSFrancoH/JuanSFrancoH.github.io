@@ -3,9 +3,10 @@ title: "Juan Franco"
 jupyter: python3
 ---
 
-Hi, I'm Juan Franco. I'm a Senior Analyst Data Analyst at Royal Caribbean Group, and I'm completing an MS in Data
-Analytics at Boston University MET. This site is my course ePortfolio for
-AD688, Big Data and Cloud Analytics for Business.
+Hi, I'm Juan Franco. I'm a Senior Data Analyst at Royal Caribbean Group, and I'm
+completing a master's degree in Business Analytics at Boston University. This
+site is my course ePortfolio for AD688, Big Data and Cloud Analytics for
+Business.
 
 <p style="text-align: center;"><img src="images/data center.jpg" alt="A data center interior" style="width: 75%;"></p>
 
@@ -16,6 +17,7 @@ this course, and builds a small DataFrame to confirm the Spark session starts
 and executes.
 
 ```{python}
+#| include: false
 from pyspark.sql import SparkSession
 
 spark = (
@@ -25,7 +27,9 @@ spark = (
     .getOrCreate()
 )
 spark.sparkContext.setLogLevel("ERROR")
+```
 
+```{python}
 courses = spark.createDataFrame(
     [
         ("AD688", "Big Data and Cloud Analytics for Business", 2026),
@@ -36,6 +40,5 @@ courses = spark.createDataFrame(
 )
 
 courses.show(truncate=False)
-
 spark.stop()
 ```
