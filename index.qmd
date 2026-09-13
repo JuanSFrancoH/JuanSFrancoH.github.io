@@ -1,4 +1,3 @@
-cat > index.qmd << 'QMDEOF'
 ---
 title: "Juan Franco"
 jupyter: python3
@@ -14,8 +13,8 @@ Business.
 ## Environment check
 
 The cell below runs PySpark directly on the AWS EC2 instance used throughout
-this course, and lists my coursework in the Business Analytics program. METAD
-688 is the course I am currently completing.
+this course, and builds a small DataFrame to confirm the Spark session starts
+and executes.
 
 ```{python}
 #| include: false
@@ -48,13 +47,4 @@ courses = spark.createDataFrame(
 
 courses.show(truncate=False)
 spark.stop()
-QMDEOF
-```
-
-The quoted `'QMDEOF'` means bash writes everything literally — no substitutions, backticks intact.
-
-**One thing that needs your hand:** the heredoc can't carry the final closing fence, because three backticks alone on a line would end my code block here. So after running that, open `index.qmd` in the editor and add a line at the very end containing three backticks. Then verify:
-
-```bash
-grep -c '```' index.qmd
 ```
