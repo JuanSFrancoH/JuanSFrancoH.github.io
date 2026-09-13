@@ -1,8 +1,41 @@
 ---
 title: "Juan Franco"
+jupyter: python3
 ---
 
-This is a Quarto website.
-
+Hi, I'm Juan Franco. I'm a Senior Analyst Data Analyst at Royal Caribbean Group, and I'm completing an MS in Data
+Analytics at Boston University MET. This site is my course ePortfolio for
+AD688, Big Data and Cloud Analytics for Business.
 
 <p style="text-align: center;"><img src="images/data center.jpg" alt="A data center interior" style="width: 75%;"></p>
+
+## Environment check
+
+The cell below runs PySpark directly on the AWS EC2 instance used throughout
+this course, and builds a small DataFrame to confirm the Spark session starts
+and executes.
+
+```{python}
+from pyspark.sql import SparkSession
+
+spark = (
+    SparkSession.builder
+    .appName("PortfolioDemo")
+    .master("local[*]")
+    .getOrCreate()
+)
+spark.sparkContext.setLogLevel("ERROR")
+
+courses = spark.createDataFrame(
+    [
+        ("AD688", "Big Data and Cloud Analytics for Business", 2026),
+        ("AD699", "Data Mining for Business Analytics", 2026),
+        ("AD632", "Financial Concepts", 2025),
+    ],
+    ["course_code", "course_title", "year"],
+)
+
+courses.show(truncate=False)
+
+spark.stop()
+```
