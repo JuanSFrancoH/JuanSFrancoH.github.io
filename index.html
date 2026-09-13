@@ -180,56 +180,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Hi, I’m Juan Franco. I’m a Senior Analyst Data Analyst at Royal Caribbean Group, and I’m completing an MS in Data Analytics at Boston University MET. This site is my course ePortfolio for AD688, Big Data and Cloud Analytics for Business.</p>
+<p>Hi, I’m Juan Franco. I’m a Senior Data Analyst at Royal Caribbean Group, and I’m completing a master’s degree in Business Analytics at Boston University. This site is my course ePortfolio for AD688, Big Data and Cloud Analytics for Business.</p>
 <p style="text-align: center;">
-<img src="images/data center.jpg" alt="A data center interior" style="width: 75%;">
+<img src="images/data-center.jpg" alt="A data center interior" style="width: 75%;">
 </p>
 <section id="environment-check" class="level2">
 <h2 class="anchored" data-anchor-id="environment-check">Environment check</h2>
 <p>The cell below runs PySpark directly on the AWS EC2 instance used throughout this course, and builds a small DataFrame to confirm the Spark session starts and executes.</p>
-<div id="a5625551" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>spark <span class="op">=</span> (</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    SparkSession.builder</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    .appName(<span class="st">"PortfolioDemo"</span>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    .master(<span class="st">"local[*]"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    .getOrCreate()</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>spark.sparkContext.setLogLevel(<span class="st">"ERROR"</span>)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>courses <span class="op">=</span> spark.createDataFrame(</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    [</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"AD688"</span>, <span class="st">"Big Data and Cloud Analytics for Business"</span>, <span class="dv">2026</span>),</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"AD699"</span>, <span class="st">"Data Mining for Business Analytics"</span>, <span class="dv">2026</span>),</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"AD632"</span>, <span class="st">"Financial Concepts"</span>, <span class="dv">2025</span>),</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    ],</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"course_code"</span>, <span class="st">"course_title"</span>, <span class="st">"year"</span>],</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>courses.show(truncate<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>spark.stop()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="61de1c33" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>courses <span class="op">=</span> spark.createDataFrame(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    [</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 605"</span>,  <span class="st">"Operations Management"</span>),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 571S"</span>, <span class="st">"Business Analytics Foundations"</span>),</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 616S"</span>, <span class="st">"Enterprise Risk Analytics"</span>),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 715S"</span>, <span class="st">"Quantitative and Qualitative Decision Making"</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 599"</span>,  <span class="st">"Python and SQL for Business Analytics"</span>),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 699"</span>,  <span class="st">"Data Mining for Business Analytics"</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 632S"</span>, <span class="st">"Financial Concepts"</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        (<span class="st">"METAD 688"</span>,  <span class="st">"Big Data and Cloud Analytics for Business"</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    ],</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"course_code"</span>, <span class="st">"course_title"</span>],</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>courses.show(truncate<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>spark.stop()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>WARNING: Using incubator modules: jdk.incubator.vector
-WARNING: package sun.security.action not in java.base
-Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
-Setting default log level to "WARN".
-To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-26/09/13 14:26:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-
+<pre><code>
 [Stage 0:&gt;                                                          (0 + 1) / 1]
 
                                                                                 </code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>+-----------+-----------------------------------------+----+
-|course_code|course_title                             |year|
-+-----------+-----------------------------------------+----+
-|AD688      |Big Data and Cloud Analytics for Business|2026|
-|AD699      |Data Mining for Business Analytics       |2026|
-|AD632      |Financial Concepts                       |2025|
-+-----------+-----------------------------------------+----+
+<pre><code>+-----------+--------------------------------------------+
+|course_code|course_title                                |
++-----------+--------------------------------------------+
+|METAD 605  |Operations Management                       |
+|METAD 571S |Business Analytics Foundations              |
+|METAD 616S |Enterprise Risk Analytics                   |
+|METAD 715S |Quantitative and Qualitative Decision Making|
+|METAD 599  |Python and SQL for Business Analytics       |
+|METAD 699  |Data Mining for Business Analytics          |
+|METAD 632S |Financial Concepts                          |
+|METAD 688  |Big Data and Cloud Analytics for Business   |
++-----------+--------------------------------------------+
 </code></pre>
 </div>
 </div>
