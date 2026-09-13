@@ -8,7 +8,7 @@ completing a master's degree in Business Analytics at Boston University. This
 site is my course ePortfolio for AD688, Big Data and Cloud Analytics for
 Business.
 
-<p style="text-align: center;"><img src="images/data center.jpg" alt="A data center interior" style="width: 75%;"></p>
+<p style="text-align: center;"><img src="images/data-center.jpg" alt="A data center interior" style="width: 75%;"></p>
 
 ## Environment check
 
