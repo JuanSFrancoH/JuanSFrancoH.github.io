@@ -13,8 +13,8 @@ Business.
 ## Environment check
 
 The cell below runs PySpark directly on the AWS EC2 instance used throughout
-this course, and builds a small DataFrame to confirm the Spark session starts
-and executes.
+this course, and lists my coursework in the Business Analytics program. METAD
+688 is the course I am currently completing.
 
 ```{python}
 #| include: false
@@ -24,6 +24,7 @@ spark = (
     SparkSession.builder
     .appName("PortfolioDemo")
     .master("local[*]")
+    .config("spark.ui.showConsoleProgress", "false")
     .getOrCreate()
 )
 spark.sparkContext.setLogLevel("ERROR")
@@ -33,17 +34,3 @@ spark.sparkContext.setLogLevel("ERROR")
 courses = spark.createDataFrame(
     [
         ("METAD 605",  "Operations Management"),
-        ("METAD 571S", "Business Analytics Foundations"),
-        ("METAD 616S", "Enterprise Risk Analytics"),
-        ("METAD 715S", "Quantitative and Qualitative Decision Making"),
-        ("METAD 599",  "Python and SQL for Business Analytics"),
-        ("METAD 699",  "Data Mining for Business Analytics"),
-        ("METAD 632S", "Financial Concepts"),
-        ("METAD 688",  "Big Data and Cloud Analytics for Business"),
-    ],
-    ["course_code", "course_title"],
-)
-
-courses.show(truncate=False)
-spark.stop()
-```
