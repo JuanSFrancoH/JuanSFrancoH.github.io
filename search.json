@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Juan Franco. I currently work as a Senior Data Analyst at Royal Caribbean Group, and I am completing a master’s degree in Business Analytics at Boston University.\nMy primary interests lie in data science and machine learning. The program at BU has provided me with an excellent opportunity to learn about these fields, gain exposure to them, and, most importantly, develop hands-on experience in both areas. After completing the program, I plan to apply the skills I have learned more extensively in my current role and add significant value to my team.\nI also hope to continue expanding my knowledge in other closely related areas of technology, including software engineering. Overall, I consider myself a very curious person and a lifelong learner who enjoys understanding how things work. Therefore, I hope to continue learning and applying my knowledge even after completing my master’s degree."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Juan Franco",
@@ -18,6 +11,13 @@
     "href": "index.html#environment-check",
     "title": "Juan Franco",
     "section": "Environment check",
-    "text": "Environment check\nThe cell below runs PySpark directly on the AWS EC2 instance used throughout this course, and lists my coursework in the Business Analytics program. METAD 688 is the course I am currently completing.\ncourses = spark.createDataFrame( [ (“METAD 605”, “Operations Management”),"
+    "text": "Environment check\nThe cell below runs PySpark directly on the AWS EC2 instance used throughout this course, and builds a small DataFrame to confirm the Spark session starts and executes.\n\ncourses = spark.createDataFrame(\n    [\n        (\"METAD 605\",  \"Operations Management\"),\n        (\"METAD 571S\", \"Business Analytics Foundations\"),\n        (\"METAD 616S\", \"Enterprise Risk Analytics\"),\n        (\"METAD 715S\", \"Quantitative and Qualitative Decision Making\"),\n        (\"METAD 599\",  \"Python and SQL for Business Analytics\"),\n        (\"METAD 699\",  \"Data Mining for Business Analytics\"),\n        (\"METAD 632S\", \"Financial Concepts\"),\n        (\"METAD 688\",  \"Big Data and Cloud Analytics for Business\"),\n    ],\n    [\"course_code\", \"course_title\"],\n)\n\ncourses.show(truncate=False)\nspark.stop()\n\n+-----------+--------------------------------------------+\n|course_code|course_title                                |\n+-----------+--------------------------------------------+\n|METAD 605  |Operations Management                       |\n|METAD 571S |Business Analytics Foundations              |\n|METAD 616S |Enterprise Risk Analytics                   |\n|METAD 715S |Quantitative and Qualitative Decision Making|\n|METAD 599  |Python and SQL for Business Analytics       |\n|METAD 699  |Data Mining for Business Analytics          |\n|METAD 632S |Financial Concepts                          |\n|METAD 688  |Big Data and Cloud Analytics for Business   |\n+-----------+--------------------------------------------+"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Juan Franco. I currently work as a Senior Data Analyst at Royal Caribbean Group, and I am completing a master’s degree in Business Analytics at Boston University.\nMy primary interests lie in data science and machine learning. The program at BU has provided me with an excellent opportunity to learn about these fields, gain exposure to them, and, most importantly, develop hands-on experience in both areas. After completing the program, I plan to apply the skills I have learned more extensively in my current role and add significant value to my team.\nI also hope to continue expanding my knowledge in other closely related areas of technology, including software engineering. Overall, I consider myself a very curious person and a lifelong learner who enjoys understanding how things work. Therefore, I hope to continue learning and applying my knowledge even after completing my master’s degree."
   }
 ]
