@@ -2,4 +2,87 @@
 title: "Projects"
 ---
 
-Content coming soon.
+A selection of academic and work projects. Course code stays private while
+classes are in session, and work projects are described without company data.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .project-card}
+![](images/projects/career_site_job_volume.png){fig-alt="Bar chart of job posting volume by segment"}
+
+### Career Evaluation Website
+[Team project · AD688 Big Data and Cloud Analytics · In progress]{.project-meta}
+
+A Quarto website that helps analytics job seekers compare roles, salaries and
+skill demand in Computer Systems Design (NAICS 5415). I built the data pipeline
+that filters 504,208 raw job postings down to a 1,790-posting, 12-month panel,
+wrote the location and salary cleaning scripts (including a fix for Washington,
+DC postings being counted as Washington State), and wrote the project's
+literature review.
+
+**Tools:** Python, PySpark, pandas, AWS EC2, Quarto, GitHub Pages
+
+[Visit the team site](https://jennader.github.io/METAD688_Group2/){.btn .btn-sm .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6 .project-card}
+![](images/projects/spark_salary_by_industry.svg){fig-alt="Chart of salary by industry"}
+
+### Job Market Analytics with Apache Spark
+[Individual coursework · AD688 Big Data and Cloud Analytics]{.project-meta}
+
+Two analyses of a large job postings dataset, run on an AWS EC2 instance. The
+first models the data as a star schema in Spark SQL and answers four business
+questions about salaries and demand across industries and states. The second
+cleans the raw postings in PySpark, recovers years of experience from job
+description text when the structured fields were blank, and charts salary
+patterns by industry, education, experience and remote status.
+
+**Tools:** PySpark, Spark SQL, Plotly, Quarto, AWS EC2
+:::
+
+::: {.g-col-12 .g-col-md-6 .project-card}
+<div class="project-icon"><i class="bi bi-house-door"></i></div>
+
+### Zurich Airbnb Classification
+[Team project · AD699 Data Mining for Business Analytics]{.project-meta}
+
+Classification models built on 2,534 Zurich listings from Inside Airbnb. A
+k-nearest neighbors model predicts whether a listing offers a dedicated
+workspace, with k chosen by 10-fold cross-validation (60.8% test accuracy
+against a 58.7% baseline). A pruned decision tree predicts how quickly hosts
+respond across four classes, reaching 73.9% test accuracy against a 61.9%
+baseline.
+
+**Tools:** Python, scikit-learn, pandas, Jupyter
+:::
+
+::: {.g-col-12 .g-col-md-6 .project-card}
+<div class="project-icon"><i class="bi bi-gear-wide-connected"></i></div>
+
+### Weekly Planning File Consolidation
+[Work project · Royal Caribbean Group]{.project-meta}
+
+A reusable Python script that combines ship-by-ship planning tabs into one clean
+dataset each week. It uses fuzzy matching to line up port names that are
+spelled differently across sources, so the combined file can be checked against
+the itinerary system of record.
+
+**Tools:** Python, pandas, fuzzy string matching
+:::
+
+::: {.g-col-12 .g-col-md-6 .project-card}
+<div class="project-icon"><i class="bi bi-bar-chart-line"></i></div>
+
+### Guest Satisfaction Dashboard
+[Work project · Royal Caribbean Group]{.project-meta}
+
+A Power BI dashboard that tracks guest satisfaction scores, connected live to
+Databricks through DirectQuery. I built the data model, the DAX measures and
+the Power Query steps so the team can follow satisfaction results in one place
+without exporting data by hand.
+
+**Tools:** Power BI, DAX, Power Query, Databricks
+:::
+
+:::
