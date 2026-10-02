@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   resources:
-    - files/
+    - files/Juan_Franco_CV.pdf
 
 execute:
   freeze: auto
