@@ -2,15 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://juansfrancoh.github.io/index.html</loc>
-    <lastmod>2026-10-02T00:55:28.577Z</lastmod>
+    <lastmod>2026-10-02T01:05:40.416Z</lastmod>
   </url>
   <url>
     <loc>https://juansfrancoh.github.io/about.html</loc>
     <lastmod>2026-10-02T00:55:28.578Z</lastmod>
   </url>
   <url>
+    <loc>https://juansfrancoh.github.io/projects/planning-file-consolidation.html</loc>
+    <lastmod>2026-10-02T01:05:40.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juansfrancoh.github.io/projects/guest-satisfaction-dashboard.html</loc>
+    <lastmod>2026-10-02T01:05:40.416Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juansfrancoh.github.io/projects/spark-job-market.html</loc>
+    <lastmod>2026-10-02T01:05:40.415Z</lastmod>
+  </url>
+  <url>
     <loc>https://juansfrancoh.github.io/contact.html</loc>
     <lastmod>2026-10-02T00:45:42.286Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juansfrancoh.github.io/projects/career-site.html</loc>
+    <lastmod>2026-10-02T01:05:40.415Z</lastmod>
+  </url>
+  <url>
+    <loc>https://juansfrancoh.github.io/projects/zurich-airbnb.html</loc>
+    <lastmod>2026-10-02T01:05:40.415Z</lastmod>
   </url>
   <url>
     <loc>https://juansfrancoh.github.io/cv.html</loc>
@@ -18,6 +38,6 @@
   </url>
   <url>
     <loc>https://juansfrancoh.github.io/projects.html</loc>
-    <lastmod>2026-10-02T00:55:28.578Z</lastmod>
+    <lastmod>2026-10-02T01:05:40.416Z</lastmod>
   </url>
 </urlset>
