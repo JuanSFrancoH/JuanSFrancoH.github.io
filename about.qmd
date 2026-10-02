@@ -2,18 +2,40 @@
 title: "About"
 ---
 
-My name is Juan Franco. I currently work as a Senior Data Analyst at Royal
-Caribbean Group, and I am completing a master's degree in Business Analytics at
-Boston University.
+## Hi, I'm Juan
 
-My primary interests lie in data science and machine learning. The program at BU
-has provided me with an excellent opportunity to learn about these fields, gain
-exposure to them, and, most importantly, develop hands-on experience in both
-areas. After completing the program, I plan to apply the skills I have learned
-more extensively in my current role and add significant value to my team.
+I'm a data analyst based in Miami, working in the cruise industry. At Royal
+Caribbean Group I work on fleet deployment and itinerary planning, where a single
+schedule change can affect ports, fuel, crew and guests at the same time. Most of
+my day is spent pulling that information together in SQL, Python, Excel and
+Power BI so the team can see the trade-offs clearly before making a call.
 
-I also hope to continue expanding my knowledge in other closely related areas of
-technology, including software engineering. Overall, I consider myself a very
-curious person and a lifelong learner who enjoys understanding how things work.
-Therefore, I hope to continue learning and applying my knowledge even after
-completing my master's degree.
+## How I got here
+
+I started with a bachelor's degree in finance from Florida International
+University, which gave me a solid base in financial modeling and economics.
+Before the cruise industry, I worked at Parkland, where I built KPI reports, ran
+root cause analysis on operational problems and helped develop pricing
+strategies. I then moved to Norwegian Cruise Line Holdings, working on
+deployment and revenue analysis and building Tableau dashboards that revenue
+and strategy teams used every week. That work led me to my current role at
+Royal Caribbean Group.
+
+## What I'm working toward
+
+My goal is to move into data science and machine learning roles. Much of the
+analysis I do today explains what happened and why. I want to get better at the
+predictive side: building models that forecast demand, flag risks early and
+help teams plan ahead instead of reacting. The master's program at Boston
+University has given me hands-on practice with classification models, Apache
+Spark, cloud computing on AWS and generative AI, and I apply those skills to
+real problems whenever I can.
+
+## Skills
+
+- **Programming and data:** Python (pandas, PySpark, Plotly), SQL, Excel
+- **Visualization:** Power BI, Tableau, Plotly
+- **Cloud and tools:** AWS EC2, Apache Spark, Git and GitHub, Quarto
+- **Methods:** data cleaning and modeling, classification (KNN, decision trees,
+  random forests), forecasting, dashboard design
+- **Languages:** English and Spanish

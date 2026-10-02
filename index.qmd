@@ -1,10 +1,17 @@
 ---
 title: "Juan Franco"
+subtitle: "Senior Data Analyst at Royal Caribbean Group | M.S. in Business Analytics candidate, Boston University"
 ---
 
-Hi, I'm Juan Franco. I'm a Senior Data Analyst at Royal Caribbean Group, and I'm
-completing a master's degree in Business Analytics at Boston University. This
-site is my course ePortfolio for AD688, Big Data and Cloud Analytics for
-Business.
+I turn operational data into decisions. At Royal Caribbean Group I analyze fleet
+deployment and itinerary planning, and I'm completing a master's degree in
+Business Analytics at Boston University.
 
-<p style="text-align: center;"><img src="images/data-center.jpg" alt="A data center interior" style="width: 75%;"></p>
+This site brings together projects I've built in school and at work, with a
+focus on data engineering, cloud analytics and machine learning.
+
+[View my projects](projects.qmd){.btn .btn-primary}
+[Download my CV](cv.qmd){.btn .btn-outline-primary}
+[Get in touch](contact.qmd){.btn .btn-outline-secondary}
+
+<p style="text-align: center; margin-top: 2rem;"><img src="images/data-center.jpg" alt="A data center interior" style="width: 75%;"></p>
