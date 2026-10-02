@@ -1,16 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
 execute:
   freeze: auto
 
-project:
-  type: website
-
 website:
   title: "Juan Franco"
+  site-url: https://juansfrancoh.github.io
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/JuanSFrancoH
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Juan Franco · Built with Quarto"
 
 format:
   html:
@@ -18,7 +31,4 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
-
-
-
+    toc: false
