@@ -34,6 +34,6 @@ format:
   html:
     theme:
       - cosmo
-      - brand
+      - theme.scss
     css: styles.css
     toc: false

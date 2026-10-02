@@ -34,3 +34,107 @@
 /* Contact page */
 .contact-list p { font-size: 1.15rem; margin-bottom: 0.9rem; }
 .contact-list .bi { color: #2A7F83; margin-right: 0.6rem; font-size: 1.3rem; }
+
+/* ---------- Home hero ---------- */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 2.5rem;
+}
+.headshot {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 76, 92, 0.25);
+}
+.hero-text { flex: 1; min-width: 280px; }
+.hero-kicker {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2A7F83;
+}
+.hero-name {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #0F4C5C;
+  margin: 0.3rem 0 0.9rem;
+}
+
+/* ---------- Stats strip ---------- */
+.stats { margin-bottom: 1rem; }
+.stat {
+  background: #F4F7F8;
+  border-radius: 12px;
+  padding: 1.1rem 0.8rem;
+  text-align: center;
+}
+.stat-number {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0F4C5C;
+}
+.stat-label { display: block; font-size: 0.85rem; color: #5C6B73; }
+
+/* ---------- Cards ---------- */
+.skill-card {
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+.skill-card .bi { font-size: 2rem; color: #2A7F83; }
+.skill-card h3 { margin-top: 0.5rem; font-size: 1.15rem; }
+.skill-card, .project-card { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.skill-card:hover, .project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(15, 76, 92, 0.12);
+}
+
+/* ---------- Tags ---------- */
+.tag {
+  display: inline-block;
+  background: #E6F2F2;
+  color: #0F4C5C;
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  margin: 0.15rem 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* ---------- Timeline ---------- */
+.timeline {
+  border-left: 3px solid #A7E0DC;
+  padding-left: 1.4rem;
+  margin: 1rem 0 1.5rem 0.4rem;
+}
+.timeline-item { position: relative; margin-bottom: 1.4rem; }
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.95rem;
+  top: 0.3rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: #0F4C5C;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 2px #A7E0DC;
+}
+.timeline-item p { margin-bottom: 0.2rem; }
+.timeline-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #2A7F83;
+}

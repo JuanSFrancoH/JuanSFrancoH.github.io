@@ -1,17 +1,94 @@
 ---
-title: "Juan Franco"
-subtitle: "Senior Data Analyst at Royal Caribbean Group | M.S. in Business Analytics candidate, Boston University"
+pagetitle: "Juan Franco | Data Analyst"
 ---
 
-I turn operational data into decisions. At Royal Caribbean Group I analyze fleet
-deployment and itinerary planning, and I'm completing a master's degree in
-Business Analytics at Boston University.
+::: {.hero}
+<img src="images/headshot.jpg" alt="Photo of Juan Franco" class="headshot">
 
-This site brings together projects I've built in school and at work, with a
-focus on data engineering, cloud analytics and machine learning.
+::: {.hero-text}
+[Data Analyst · Cruise Industry · Miami]{.hero-kicker}
+
+[Juan Franco]{.hero-name}
+
+Senior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics
+candidate at Boston University. I turn large, messy operational data into
+dashboards, models and decisions, and I'm building toward a career in data
+science and machine learning.
 
 [View my projects](projects.qmd){.btn .btn-primary}
-[Download my CV](cv.qmd){.btn .btn-outline-primary}
+[Download my CV](files/Juan_Franco_CV.pdf){.btn .btn-outline-primary}
 [Get in touch](contact.qmd){.btn .btn-outline-secondary}
+:::
+:::
 
-<p style="text-align: center; margin-top: 2rem;"><img src="images/data-center.jpg" alt="A data center interior" style="width: 75%;"></p>
+::: {.grid .stats}
+::: {.g-col-6 .g-col-md-3 .stat}
+[4+]{.stat-number} [years in analytics]{.stat-label}
+:::
+::: {.g-col-6 .g-col-md-3 .stat}
+[3]{.stat-number} [companies across 2 industries]{.stat-label}
+:::
+::: {.g-col-6 .g-col-md-3 .stat}
+[500K+]{.stat-number} [job postings processed with Spark]{.stat-label}
+:::
+::: {.g-col-6 .g-col-md-3 .stat}
+[Oct 2026]{.stat-number} [M.S. in Business Analytics]{.stat-label}
+:::
+:::
+
+## What I do
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .skill-card}
+<i class="bi bi-cloud-arrow-up"></i>
+
+### Data engineering and cloud
+
+Building Spark pipelines on AWS, cleaning and reshaping large datasets, and
+modeling data as star schemas that are easy to query.
+:::
+::: {.g-col-12 .g-col-md-4 .skill-card}
+<i class="bi bi-bar-chart-line"></i>
+
+### Analytics and BI
+
+Designing Power BI and Tableau dashboards that teams use every week, with clear
+KPIs, solid data models and trend and variance analysis.
+:::
+::: {.g-col-12 .g-col-md-4 .skill-card}
+<i class="bi bi-cpu"></i>
+
+### Machine learning
+
+Training and tuning classification models such as KNN, decision trees and
+random forests, with cross-validation and honest baselines.
+:::
+:::
+
+## Featured projects
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .project-card}
+![](images/projects/career_site_job_volume.png){fig-alt="Bar chart of job posting volume by segment"}
+
+### Career Evaluation Website
+A team-built site that helps analytics job seekers compare roles, salaries and
+skill demand, powered by a pipeline I built on 504,208 job postings.
+:::
+::: {.g-col-12 .g-col-md-6 .project-card}
+![](images/projects/spark_salary_by_industry.svg){fig-alt="Chart of salary by industry"}
+
+### Job Market Analytics with Apache Spark
+Star schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of
+salary patterns by industry, education and experience.
+:::
+:::
+
+[See all projects](projects.qmd){.btn .btn-primary}
+
+## Right now
+
+I'm finishing my M.S. at Boston University with Big Data and Cloud Analytics,
+working with PySpark, AWS and Spark ML on a team project that maps the job
+market for analytics roles. At work, I'm automating more of our weekly
+planning data with Python.

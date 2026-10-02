@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$primary: #0F4C5C;
+$secondary: #5C6B73;
+$link-color: #1F6F78;
+$body-color: #1E293B;
+$headings-font-weight: 700;
+$navbar-bg: #0F4C5C;
+$navbar-fg: #FFFFFF;
+$navbar-hl: #A7E0DC;
+$footer-bg: #F4F7F8;
+
+/*-- scss:rules --*/
+.quarto-title .title { letter-spacing: -0.02em; }
+.quarto-title .subtitle { color: #5C6B73; font-size: 1.1rem; }
+h2 {
+  border-bottom: 2px solid #E2E8F0;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+.btn {
+  border-radius: 999px;
+  padding: 0.5rem 1.15rem;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  font-weight: 500;
+}
+.nav-footer { font-size: 0.85rem; }

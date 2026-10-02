@@ -1,5 +1,23 @@
 ---
-title: "About"
+title: "About Me"
+about:
+  template: trestles
+  image: images/headshot.jpg
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/juansfrancoh
+    - icon: github
+      text: GitHub
+      href: https://github.com/JuanSFrancoH
+    - icon: envelope
+      text: Email
+      href: mailto:jfran291@bu.edu
+    - icon: file-earmark-person
+      text: CV
+      href: files/Juan_Franco_CV.pdf
 ---
 
 ## Hi, I'm Juan
@@ -31,11 +49,71 @@ University has given me hands-on practice with classification models, Apache
 Spark, cloud computing on AWS and generative AI, and I apply those skills to
 real problems whenever I can.
 
+## Experience
+
+::: {.timeline}
+::: {.timeline-item}
+[April 2026 to present]{.timeline-date}
+
+**Senior Data Analyst**, Royal Caribbean Group
+
+Fleet deployment and itinerary analytics, Power BI dashboards and Python
+automation for weekly planning data.
+:::
+::: {.timeline-item}
+[August 2024 to March 2026]{.timeline-date}
+
+**Analyst**, Norwegian Cruise Line Holdings
+
+Revenue and deployment analysis across global itineraries, Tableau dashboards
+and automated reporting that cut manual effort by 30 to 40%.
+:::
+::: {.timeline-item}
+[April 2022 to July 2024]{.timeline-date}
+
+**Business Analyst**, Parkland Corporation
+
+Pricing strategy, KPI reporting and cost analysis, including a 3% gross margin
+increase and an 11% reduction in overtime.
+:::
+:::
+
+## Education
+
+::: {.timeline}
+::: {.timeline-item}
+[Expected October 2026]{.timeline-date}
+
+**M.S. in Applied Business Analytics**, Boston University
+
+Merit Scholarship. Coursework in big data and cloud analytics, data mining,
+deep learning, generative AI and enterprise risk analytics.
+:::
+::: {.timeline-item}
+[December 2023]{.timeline-date}
+
+**B.B.A. in Finance**, Florida International University
+
+Dean's List and member of The National Society of Leadership and Success.
+:::
+:::
+
+## Certifications
+
+- Data Analyst in Python, DataCamp
+- Data Analyst in SQL, DataCamp
+- Data Analyst in Tableau, DataCamp
+
 ## Skills
 
-- **Programming and data:** Python (pandas, PySpark, Plotly), SQL, Excel
-- **Visualization:** Power BI, Tableau, Plotly
-- **Cloud and tools:** AWS EC2, Apache Spark, Git and GitHub, Quarto
-- **Methods:** data cleaning and modeling, classification (KNN, decision trees,
-  random forests), forecasting, dashboard design
-- **Languages:** English and Spanish
+[Python]{.tag} [SQL]{.tag} [PySpark]{.tag} [Spark SQL]{.tag} [R]{.tag}
+[pandas]{.tag} [scikit-learn]{.tag} [Excel]{.tag} [Power BI]{.tag}
+[DAX]{.tag} [Power Query]{.tag} [Tableau]{.tag} [Plotly]{.tag}
+[AWS EC2]{.tag} [Databricks]{.tag} [Git and GitHub]{.tag} [Quarto]{.tag}
+[Classification]{.tag} [Forecasting]{.tag} [Data modeling]{.tag}
+[English and Spanish]{.tag}
+
+## Outside of work
+
+When I'm not working with data, I'm usually coding side projects, reading about
+investing or traveling.
