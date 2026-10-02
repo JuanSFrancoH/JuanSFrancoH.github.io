@@ -138,3 +138,33 @@
   letter-spacing: 0.06em;
   color: #2A7F83;
 }
+
+/* ---------- Dark mode adjustments ---------- */
+body.quarto-dark .project-card,
+body.quarto-dark .skill-card { background: #18252A; border-color: #2A3A40; }
+body.quarto-dark .stat { background: #18252A; }
+body.quarto-dark .stat-number,
+body.quarto-dark .hero-name { color: #A7E0DC; }
+body.quarto-dark .stat-label { color: #9AA8AE; }
+body.quarto-dark .tag { background: #1F3A40; color: #CDEDEA; }
+body.quarto-dark .headshot { border-color: #18252A; }
+body.quarto-dark .project-icon { background: #121A1E; color: #7CC8C8; }
+body.quarto-dark .timeline { border-left-color: #2A5A60; }
+body.quarto-dark .timeline-item::before { background: #5FB3B3; border-color: #121A1E; box-shadow: 0 0 0 2px #2A5A60; }
+body.quarto-dark .hero-kicker,
+body.quarto-dark .timeline-date,
+body.quarto-dark .skill-card .bi,
+body.quarto-dark .contact-list .bi { color: #7CC8C8; }
+
+/* ---------- Gentle entrance motion ---------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+.hero, .stats, .skill-card, .project-card { animation: fadeUp 0.6s ease backwards; }
+.stats { animation-delay: 0.1s; }
+.skill-card { animation-delay: 0.2s; }
+.project-card { animation-delay: 0.25s; }
+@media (prefers-reduced-motion: reduce) {
+  .hero, .stats, .skill-card, .project-card { animation: none; }
+}

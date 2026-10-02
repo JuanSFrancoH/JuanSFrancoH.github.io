@@ -10,6 +10,12 @@ execute:
 website:
   title: "Juan Franco"
   site-url: https://juansfrancoh.github.io
+  description: "Data analyst in the cruise industry building toward data science and machine learning."
+  favicon: images/favicon.svg
+  image: images/headshot.jpg
+  open-graph: true
+  twitter-card: true
+  back-to-top-navigation: true
   navbar:
     left:
       - href: about.qmd
@@ -28,12 +34,22 @@ website:
         href: https://www.linkedin.com/in/juansfrancoh
         aria-label: LinkedIn
   page-footer:
-    center: "© 2026 Juan Franco · Built with Quarto"
+    left: "© 2026 Juan Franco · Built with Quarto"
+    right:
+      - icon: github
+        href: https://github.com/JuanSFrancoH
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/juansfrancoh
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:jfran291@bu.edu
+        aria-label: Email
 
 format:
   html:
     theme:
-      - cosmo
-      - theme.scss
+      light: [cosmo, theme.scss]
+      dark: [darkly, theme-dark.scss]
     css: styles.css
     toc: false
