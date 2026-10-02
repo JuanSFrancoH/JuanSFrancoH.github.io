@@ -4,42 +4,91 @@
     "href": "index.html",
     "title": "Juan Franco",
     "section": "",
-    "text": "I turn operational data into decisions. At Royal Caribbean Group I analyze fleet deployment and itinerary planning, and I’m completing a master’s degree in Business Analytics at Boston University.\nThis site brings together projects I’ve built in school and at work, with a focus on data engineering, cloud analytics and machine learning.\nView my projects Download my CV Get in touch"
+    "text": "Data Analyst · Cruise Industry · Miami\nJuan Franco\nSenior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics candidate at Boston University. I turn large, messy operational data into dashboards, models and decisions, and I’m building toward a career in data science and machine learning.\nView my projects Download my CV Get in touch"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Juan Franco",
+    "section": "What I do",
+    "text": "What I do\n\n\n\n\nData engineering and cloud\nBuilding Spark pipelines on AWS, cleaning and reshaping large datasets, and modeling data as star schemas that are easy to query.\n\n\n\n\n\nAnalytics and BI\nDesigning Power BI and Tableau dashboards that teams use every week, with clear KPIs, solid data models and trend and variance analysis.\n\n\n\n\n\nMachine learning\nTraining and tuning classification models such as KNN, decision trees and random forests, with cross-validation and honest baselines."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Juan Franco",
+    "section": "Featured projects",
+    "text": "Featured projects\n\n\n\n\nCareer Evaluation Website\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand, powered by a pipeline I built on 504,208 job postings.\n\n\n\n\n\nJob Market Analytics with Apache Spark\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns by industry, education and experience.\n\n\n\nSee all projects"
+  },
+  {
+    "objectID": "index.html#right-now",
+    "href": "index.html#right-now",
+    "title": "Juan Franco",
+    "section": "Right now",
+    "text": "Right now\nI’m finishing my M.S. at Boston University with Big Data and Cloud Analytics, working with PySpark, AWS and Spark ML on a team project that maps the job market for analytics roles. At work, I’m automating more of our weekly planning data with Python."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
     "text": "I’m a data analyst based in Miami, working in the cruise industry. At Royal Caribbean Group I work on fleet deployment and itinerary planning, where a single schedule change can affect ports, fuel, crew and guests at the same time. Most of my day is spent pulling that information together in SQL, Python, Excel and Power BI so the team can see the trade-offs clearly before making a call."
   },
   {
     "objectID": "about.html#hi-im-juan",
     "href": "about.html#hi-im-juan",
-    "title": "About",
+    "title": "About Me",
     "section": "",
     "text": "I’m a data analyst based in Miami, working in the cruise industry. At Royal Caribbean Group I work on fleet deployment and itinerary planning, where a single schedule change can affect ports, fuel, crew and guests at the same time. Most of my day is spent pulling that information together in SQL, Python, Excel and Power BI so the team can see the trade-offs clearly before making a call."
   },
   {
     "objectID": "about.html#how-i-got-here",
     "href": "about.html#how-i-got-here",
-    "title": "About",
+    "title": "About Me",
     "section": "How I got here",
     "text": "How I got here\nI started with a bachelor’s degree in finance from Florida International University, which gave me a solid base in financial modeling and economics. Before the cruise industry, I worked at Parkland, where I built KPI reports, ran root cause analysis on operational problems and helped develop pricing strategies. I then moved to Norwegian Cruise Line Holdings, working on deployment and revenue analysis and building Tableau dashboards that revenue and strategy teams used every week. That work led me to my current role at Royal Caribbean Group."
   },
   {
     "objectID": "about.html#what-im-working-toward",
     "href": "about.html#what-im-working-toward",
-    "title": "About",
+    "title": "About Me",
     "section": "What I’m working toward",
     "text": "What I’m working toward\nMy goal is to move into data science and machine learning roles. Much of the analysis I do today explains what happened and why. I want to get better at the predictive side: building models that forecast demand, flag risks early and help teams plan ahead instead of reacting. The master’s program at Boston University has given me hands-on practice with classification models, Apache Spark, cloud computing on AWS and generative AI, and I apply those skills to real problems whenever I can."
   },
   {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\n\nApril 2026 to present\nSenior Data Analyst, Royal Caribbean Group\nFleet deployment and itinerary analytics, Power BI dashboards and Python automation for weekly planning data.\n\n\nAugust 2024 to March 2026\nAnalyst, Norwegian Cruise Line Holdings\nRevenue and deployment analysis across global itineraries, Tableau dashboards and automated reporting that cut manual effort by 30 to 40%.\n\n\nApril 2022 to July 2024\nBusiness Analyst, Parkland Corporation\nPricing strategy, KPI reporting and cost analysis, including a 3% gross margin increase and an 11% reduction in overtime."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\nExpected October 2026\nM.S. in Applied Business Analytics, Boston University\nMerit Scholarship. Coursework in big data and cloud analytics, data mining, deep learning, generative AI and enterprise risk analytics.\n\n\nDecember 2023\nB.B.A. in Finance, Florida International University\nDean’s List and member of The National Society of Leadership and Success."
+  },
+  {
+    "objectID": "about.html#certifications",
+    "href": "about.html#certifications",
+    "title": "About Me",
+    "section": "Certifications",
+    "text": "Certifications\n\nData Analyst in Python, DataCamp\nData Analyst in SQL, DataCamp\nData Analyst in Tableau, DataCamp"
+  },
+  {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
-    "title": "About",
+    "title": "About Me",
     "section": "Skills",
-    "text": "Skills\n\nProgramming and data: Python (pandas, PySpark, Plotly), SQL, Excel\nVisualization: Power BI, Tableau, Plotly\nCloud and tools: AWS EC2, Apache Spark, Git and GitHub, Quarto\nMethods: data cleaning and modeling, classification (KNN, decision trees, random forests), forecasting, dashboard design\nLanguages: English and Spanish"
+    "text": "Skills\nPython SQL PySpark Spark SQL R pandas scikit-learn Excel Power BI DAX Power Query Tableau Plotly AWS EC2 Databricks Git and GitHub Quarto Classification Forecasting Data modeling English and Spanish"
+  },
+  {
+    "objectID": "about.html#outside-of-work",
+    "href": "about.html#outside-of-work",
+    "title": "About Me",
+    "section": "Outside of work",
+    "text": "Outside of work\nWhen I’m not working with data, I’m usually coding side projects, reading about investing or traveling."
   },
   {
     "objectID": "contact.html",
@@ -60,6 +109,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of academic and work projects. Course code stays private while classes are in session, and work projects are described without company data.\n\n\n\n\nCareer Evaluation Website\nTeam project · AD688 Big Data and Cloud Analytics · In progress\nA Quarto website that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design (NAICS 5415). I built the data pipeline that filters 504,208 raw job postings down to a 1,790-posting, 12-month panel, wrote the location and salary cleaning scripts (including a fix for Washington, DC postings being counted as Washington State), and wrote the project’s literature review.\nTools: Python, PySpark, pandas, AWS EC2, Quarto, GitHub Pages\nVisit the team site\n\n\n\n\n\nJob Market Analytics with Apache Spark\nIndividual coursework · AD688 Big Data and Cloud Analytics\nTwo analyses of a large job postings dataset, run on an AWS EC2 instance. The first models the data as a star schema in Spark SQL and answers four business questions about salaries and demand across industries and states. The second cleans the raw postings in PySpark, recovers years of experience from job description text when the structured fields were blank, and charts salary patterns by industry, education, experience and remote status.\nTools: PySpark, Spark SQL, Plotly, Quarto, AWS EC2\n\n\n\n\n\n\n\nZurich Airbnb Classification\nTeam project · AD699 Data Mining for Business Analytics\nClassification models built on 2,534 Zurich listings from Inside Airbnb. A k-nearest neighbors model predicts whether a listing offers a dedicated workspace, with k chosen by 10-fold cross-validation (60.8% test accuracy against a 58.7% baseline). A pruned decision tree predicts how quickly hosts respond across four classes, reaching 73.9% test accuracy against a 61.9% baseline.\nTools: Python, scikit-learn, pandas, Jupyter\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\nWork project · Royal Caribbean Group\nA reusable Python script that combines ship-by-ship planning tabs into one clean dataset each week. It uses fuzzy matching to line up port names that are spelled differently across sources, so the combined file can be checked against the itinerary system of record.\nTools: Python, pandas, fuzzy string matching\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\nWork project · Royal Caribbean Group\nA Power BI dashboard that tracks guest satisfaction scores, connected live to Databricks through DirectQuery. I built the data model, the DAX measures and the Power Query steps so the team can follow satisfaction results in one place without exporting data by hand.\nTools: Power BI, DAX, Power Query, Databricks"
+    "text": "A selection of academic and work projects. Course code stays private while classes are in session, and work projects are described without company data.\n\n\n\n\nCareer Evaluation Website\nTeam project · AD688 Big Data and Cloud Analytics · In progress\nA Quarto website that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design (NAICS 5415). I built the data pipeline that filters 504,208 raw job postings down to a 1,790-posting, 12-month panel, wrote the location and salary cleaning scripts (including a fix for Washington, DC postings being counted as Washington State), and wrote the project’s literature review.\nPython PySpark pandas AWS EC2 Quarto GitHub Pages\nVisit the team site\n\n\n\n\n\nJob Market Analytics with Apache Spark\nIndividual coursework · AD688 Big Data and Cloud Analytics\nTwo analyses of a large job postings dataset, run on an AWS EC2 instance. The first models the data as a star schema in Spark SQL and answers four business questions about salaries and demand across industries and states. The second cleans the raw postings in PySpark, recovers years of experience from job description text when the structured fields were blank, and charts salary patterns by industry, education, experience and remote status.\nPySpark Spark SQL Plotly Quarto AWS EC2\n\n\n\n\n\n\n\nZurich Airbnb Classification\nTeam project · AD699 Data Mining for Business Analytics\nClassification models built on 2,534 Zurich listings from Inside Airbnb. A k-nearest neighbors model predicts whether a listing offers a dedicated workspace, with k chosen by 10-fold cross-validation (60.8% test accuracy against a 58.7% baseline). A pruned decision tree predicts how quickly hosts respond across four classes, reaching 73.9% test accuracy against a 61.9% baseline.\nPython scikit-learn pandas Jupyter\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\nWork project · Royal Caribbean Group\nA reusable Python script that combines ship-by-ship planning tabs into one clean dataset each week. It uses fuzzy matching to line up port names that are spelled differently across sources, so the combined file can be checked against the itinerary system of record.\nPython pandas fuzzy string matching\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\nWork project · Royal Caribbean Group\nA Power BI dashboard that tracks guest satisfaction scores, connected live to Databricks through DirectQuery. I built the data model, the DAX measures and the Power Query steps so the team can follow satisfaction results in one place without exporting data by hand.\nPower BI DAX Power Query Databricks"
   }
 ]
