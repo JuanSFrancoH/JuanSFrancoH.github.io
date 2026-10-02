@@ -1,0 +1,52 @@
+---
+title: "Zurich Airbnb Classification"
+subtitle: "Team project · AD699 Data Mining for Business Analytics · Boston University"
+description: "KNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines."
+image: ../images/projects/zurich_banner.svg
+categories: [School, Team project, Machine Learning]
+---
+
+![](../images/projects/zurich_banner.svg){fig-alt="Zurich Airbnb Classification title banner"}
+
+::: {.project-facts}
+**My role:** classification models (KNN and decision tree)<br>
+**Team:** 4 members<br>
+**Data:** 2,534 Zurich listings from Inside Airbnb<br>
+**Tools:** [Python]{.tag} [scikit-learn]{.tag} [pandas]{.tag} [Jupyter]{.tag}
+:::
+
+## The problem
+
+Can listing data predict things guests care about? We asked two questions:
+does a listing offer a dedicated workspace, and how quickly does the host
+respond to messages?
+
+## What I did
+
+**k-nearest neighbors (workspace or not).** Used 10 numeric predictors and a
+stratified 70/30 split, scaled the features on the training data only to avoid
+leakage, and tested odd values of k from 1 to 51 with 10-fold cross-validation.
+The best was k = 5.
+
+**Decision tree (host response time, four classes).** Used 16 predictors and
+tuned cost-complexity pruning with 10-fold cross-validation, which produced a
+tree 7 levels deep with 19 leaves.
+
+## Results
+
+| Model | Test accuracy | Naive baseline | Lift |
+|---|---|---|---|
+| KNN, dedicated workspace | 60.8% | 58.7% | +2.1 points |
+| Decision tree, response time | 73.9% | 61.9% | +12.0 points |
+
+The tree clearly beat its baseline, with host behavior variables driving most
+of its splits. The KNN model only edged past its baseline, which is a finding
+in itself: listing numbers say little about which amenities a place offers.
+
+## What I learned
+
+Always report the baseline. A model with 60% accuracy sounds fine until you see
+that guessing the most common answer gets you 59%. Comparing against a naive
+benchmark keeps the results honest.
+
+[Back to projects](../projects.qmd){.btn .btn-outline-secondary}

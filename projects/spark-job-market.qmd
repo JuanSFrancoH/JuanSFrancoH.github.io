@@ -1,0 +1,51 @@
+---
+title: "Job Market Analytics with Apache Spark"
+subtitle: "Individual coursework · AD688 Big Data and Cloud Analytics · Boston University"
+description: "Star schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns."
+image: ../images/projects/spark_salary_by_industry.svg
+categories: [School, Big Data, AWS]
+---
+
+![](../images/projects/spark_salary_by_industry.svg){fig-alt="Chart of salary by industry"}
+
+::: {.project-facts}
+**My role:** individual work, end to end<br>
+**Environment:** Ubuntu on AWS EC2, connected through VS Code Remote-SSH<br>
+**Tools:** [PySpark]{.tag} [Spark SQL]{.tag} [Plotly]{.tag} [Quarto]{.tag} [AWS EC2]{.tag} [Git]{.tag}
+:::
+
+## The problem
+
+Practice building analytics end to end in the cloud on a job postings dataset
+that is too large for a spreadsheet, and turn it into clear answers about pay
+and demand.
+
+## What I did
+
+- Set up an AWS EC2 instance with PySpark, a Python virtual environment and a
+  Git workflow, and worked on it remotely from VS Code.
+- Modeled the postings as a star schema in Spark SQL and wrote four queries on
+  salary and demand across industries and states.
+- Converted hourly, weekly and monthly pay to annual salaries and bounded
+  outliers at the 99.5th percentile.
+- Cleaned state names with a lookup table that fixed abbreviations and split
+  city names.
+- In a second analysis, recovered years of experience from job description
+  text with regular expressions when the structured fields were empty, then
+  charted salary by industry, education, experience and remote status.
+- Added swap space after Spark ran out of memory on the full dataset.
+
+## Results
+
+Reproducible reports rendered to HTML, Word and PDF from one Quarto source,
+with interactive charts on the web and static images in the documents.
+
+## What I learned
+
+Working at scale changes your habits. I now check data quality before modeling,
+keep the raw data untouched and expect infrastructure issues, like memory and
+sessions, to be part of the job rather than a surprise.
+
+*The code stays private while the course is in session.*
+
+[Back to projects](../projects.qmd){.btn .btn-outline-secondary}

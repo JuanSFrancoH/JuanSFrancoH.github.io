@@ -1,0 +1,37 @@
+---
+title: "Guest Satisfaction Dashboard"
+subtitle: "Work project · Royal Caribbean Group"
+description: "A Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place."
+image: ../images/projects/dashboard_banner.svg
+categories: [Work, Business Intelligence]
+---
+
+![](../images/projects/dashboard_banner.svg){fig-alt="Guest Satisfaction Dashboard title banner"}
+
+::: {.project-facts}
+**My role:** data model, measures and report design<br>
+**Tools:** [Power BI]{.tag} [DAX]{.tag} [Power Query]{.tag} [Databricks]{.tag}
+:::
+
+## The problem
+
+Guest satisfaction results lived in a data platform that most of the team did
+not query directly, so following them meant exporting and rebuilding reports by
+hand.
+
+## What I did
+
+- Connected Power BI live to Databricks through DirectQuery, so the dashboard
+  always shows current data.
+- Built the data model, DAX measures and Power Query steps behind the report.
+- Designed the report so the team can follow satisfaction results in one place.
+
+## What I learned
+
+Live connections are powerful but come with trade-offs. With DirectQuery, every
+click sends a query, so measure design and model structure matter a lot more
+for performance than they do with imported data.
+
+*Details are kept general to protect company data.*
+
+[Back to projects](../projects.qmd){.btn .btn-outline-secondary}

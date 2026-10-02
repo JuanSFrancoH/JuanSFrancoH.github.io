@@ -1,0 +1,39 @@
+---
+title: "Weekly Planning File Consolidation"
+subtitle: "Work project · Royal Caribbean Group"
+description: "A reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset."
+image: ../images/projects/consolidation_banner.svg
+categories: [Work, Automation, Python]
+---
+
+![](../images/projects/consolidation_banner.svg){fig-alt="Weekly Planning File Consolidation title banner"}
+
+::: {.project-facts}
+**My role:** design and development<br>
+**Tools:** [Python]{.tag} [pandas]{.tag} [fuzzy string matching]{.tag} [Excel]{.tag}
+:::
+
+## The problem
+
+Planning data lives in separate tabs for each ship, and combining it into one
+view is a recurring weekly task. Port names are also spelled differently from
+one source to another, which makes comparisons error-prone.
+
+## What I did
+
+- Wrote a Python script that reads every ship's tab, standardizes the columns
+  and stacks them into one combined dataset.
+- Added fuzzy matching to line up port names that are spelled differently, so
+  the combined file can be checked against the itinerary system of record.
+- Built it to run the same way every week, so the output is consistent and
+  easy to repeat.
+
+## What I learned
+
+Real-world text is messy. A good automation script has to expect variations,
+like abbreviations and spelling differences, instead of assuming every source
+follows the same format.
+
+*Details are kept general to protect company data.*
+
+[Back to projects](../projects.qmd){.btn .btn-outline-secondary}

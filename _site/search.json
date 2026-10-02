@@ -91,11 +91,137 @@
     "text": "Outside of work\nWhen I’m not working with data, I’m usually coding side projects, reading about investing or traveling."
   },
   {
+    "objectID": "projects/planning-file-consolidation.html#the-problem",
+    "href": "projects/planning-file-consolidation.html#the-problem",
+    "title": "Weekly Planning File Consolidation",
+    "section": "The problem",
+    "text": "The problem\nPlanning data lives in separate tabs for each ship, and combining it into one view is a recurring weekly task. Port names are also spelled differently from one source to another, which makes comparisons error-prone."
+  },
+  {
+    "objectID": "projects/planning-file-consolidation.html#what-i-did",
+    "href": "projects/planning-file-consolidation.html#what-i-did",
+    "title": "Weekly Planning File Consolidation",
+    "section": "What I did",
+    "text": "What I did\n\nWrote a Python script that reads every ship’s tab, standardizes the columns and stacks them into one combined dataset.\nAdded fuzzy matching to line up port names that are spelled differently, so the combined file can be checked against the itinerary system of record.\nBuilt it to run the same way every week, so the output is consistent and easy to repeat."
+  },
+  {
+    "objectID": "projects/planning-file-consolidation.html#what-i-learned",
+    "href": "projects/planning-file-consolidation.html#what-i-learned",
+    "title": "Weekly Planning File Consolidation",
+    "section": "What I learned",
+    "text": "What I learned\nReal-world text is messy. A good automation script has to expect variations, like abbreviations and spelling differences, instead of assuming every source follows the same format.\nDetails are kept general to protect company data.\nBack to projects"
+  },
+  {
+    "objectID": "projects/guest-satisfaction-dashboard.html#the-problem",
+    "href": "projects/guest-satisfaction-dashboard.html#the-problem",
+    "title": "Guest Satisfaction Dashboard",
+    "section": "The problem",
+    "text": "The problem\nGuest satisfaction results lived in a data platform that most of the team did not query directly, so following them meant exporting and rebuilding reports by hand."
+  },
+  {
+    "objectID": "projects/guest-satisfaction-dashboard.html#what-i-did",
+    "href": "projects/guest-satisfaction-dashboard.html#what-i-did",
+    "title": "Guest Satisfaction Dashboard",
+    "section": "What I did",
+    "text": "What I did\n\nConnected Power BI live to Databricks through DirectQuery, so the dashboard always shows current data.\nBuilt the data model, DAX measures and Power Query steps behind the report.\nDesigned the report so the team can follow satisfaction results in one place."
+  },
+  {
+    "objectID": "projects/guest-satisfaction-dashboard.html#what-i-learned",
+    "href": "projects/guest-satisfaction-dashboard.html#what-i-learned",
+    "title": "Guest Satisfaction Dashboard",
+    "section": "What I learned",
+    "text": "What I learned\nLive connections are powerful but come with trade-offs. With DirectQuery, every click sends a query, so measure design and model structure matter a lot more for performance than they do with imported data.\nDetails are kept general to protect company data.\nBack to projects"
+  },
+  {
+    "objectID": "projects/spark-job-market.html#the-problem",
+    "href": "projects/spark-job-market.html#the-problem",
+    "title": "Job Market Analytics with Apache Spark",
+    "section": "The problem",
+    "text": "The problem\nPractice building analytics end to end in the cloud on a job postings dataset that is too large for a spreadsheet, and turn it into clear answers about pay and demand."
+  },
+  {
+    "objectID": "projects/spark-job-market.html#what-i-did",
+    "href": "projects/spark-job-market.html#what-i-did",
+    "title": "Job Market Analytics with Apache Spark",
+    "section": "What I did",
+    "text": "What I did\n\nSet up an AWS EC2 instance with PySpark, a Python virtual environment and a Git workflow, and worked on it remotely from VS Code.\nModeled the postings as a star schema in Spark SQL and wrote four queries on salary and demand across industries and states.\nConverted hourly, weekly and monthly pay to annual salaries and bounded outliers at the 99.5th percentile.\nCleaned state names with a lookup table that fixed abbreviations and split city names.\nIn a second analysis, recovered years of experience from job description text with regular expressions when the structured fields were empty, then charted salary by industry, education, experience and remote status.\nAdded swap space after Spark ran out of memory on the full dataset."
+  },
+  {
+    "objectID": "projects/spark-job-market.html#results",
+    "href": "projects/spark-job-market.html#results",
+    "title": "Job Market Analytics with Apache Spark",
+    "section": "Results",
+    "text": "Results\nReproducible reports rendered to HTML, Word and PDF from one Quarto source, with interactive charts on the web and static images in the documents."
+  },
+  {
+    "objectID": "projects/spark-job-market.html#what-i-learned",
+    "href": "projects/spark-job-market.html#what-i-learned",
+    "title": "Job Market Analytics with Apache Spark",
+    "section": "What I learned",
+    "text": "What I learned\nWorking at scale changes your habits. I now check data quality before modeling, keep the raw data untouched and expect infrastructure issues, like memory and sessions, to be part of the job rather than a surprise.\nThe code stays private while the course is in session.\nBack to projects"
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
     "text": "I’m always happy to talk about data science, analytics roles or any of the projects on this site. The best way to reach me is by email or LinkedIn.\n\n jfran291@bu.edu\n linkedin.com/in/juansfrancoh\n github.com/JuanSFrancoH\n Miami, Florida\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/career-site.html#the-problem",
+    "href": "projects/career-site.html#the-problem",
+    "title": "Career Evaluation Website",
+    "section": "The problem",
+    "text": "The problem\nJob seekers in analytics see thousands of postings but very little structure: which roles pay more, which skills matter and where the jobs actually are. Our team set out to build a site that answers those questions for one industry, Computer Systems Design and Related Services (NAICS 5415)."
+  },
+  {
+    "objectID": "projects/career-site.html#what-i-did",
+    "href": "projects/career-site.html#what-i-did",
+    "title": "Career Evaluation Website",
+    "section": "What I did",
+    "text": "What I did\n\nBuilt the data pipeline that filters a 504,208-row job postings extract down to a clean, 12-month panel of 1,790 postings for NAICS 5415.\nWrote the location and salary cleaning scripts, including a fix for Washington, DC postings that were being counted as Washington State.\nAdded role family and years of experience fields so the team could compare roles side by side.\nProposed switching industries after finding that our first choice, pharmaceutical manufacturing, had only 39 postings in the data.\nWrote the literature review that frames why the project matters."
+  },
+  {
+    "objectID": "projects/career-site.html#results",
+    "href": "projects/career-site.html#results",
+    "title": "Career Evaluation Website",
+    "section": "Results",
+    "text": "Results\nThe pipeline gives the team one consistent dataset that every page of the site draws from, and the numbers in the text are computed from the data instead of typed in by hand."
+  },
+  {
+    "objectID": "projects/career-site.html#what-i-learned",
+    "href": "projects/career-site.html#what-i-learned",
+    "title": "Career Evaluation Website",
+    "section": "What I learned",
+    "text": "What I learned\nMost of the work in a data product happens before the first chart. Small cleaning decisions, like how to read a location field, can quietly change every number downstream, so I now check edge cases early and write down every rule I apply.\nVisit the team site Back to projects"
+  },
+  {
+    "objectID": "projects/zurich-airbnb.html#the-problem",
+    "href": "projects/zurich-airbnb.html#the-problem",
+    "title": "Zurich Airbnb Classification",
+    "section": "The problem",
+    "text": "The problem\nCan listing data predict things guests care about? We asked two questions: does a listing offer a dedicated workspace, and how quickly does the host respond to messages?"
+  },
+  {
+    "objectID": "projects/zurich-airbnb.html#what-i-did",
+    "href": "projects/zurich-airbnb.html#what-i-did",
+    "title": "Zurich Airbnb Classification",
+    "section": "What I did",
+    "text": "What I did\nk-nearest neighbors (workspace or not). Used 10 numeric predictors and a stratified 70/30 split, scaled the features on the training data only to avoid leakage, and tested odd values of k from 1 to 51 with 10-fold cross-validation. The best was k = 5.\nDecision tree (host response time, four classes). Used 16 predictors and tuned cost-complexity pruning with 10-fold cross-validation, which produced a tree 7 levels deep with 19 leaves."
+  },
+  {
+    "objectID": "projects/zurich-airbnb.html#results",
+    "href": "projects/zurich-airbnb.html#results",
+    "title": "Zurich Airbnb Classification",
+    "section": "Results",
+    "text": "Results\n\n\n\nModel\nTest accuracy\nNaive baseline\nLift\n\n\n\n\nKNN, dedicated workspace\n60.8%\n58.7%\n+2.1 points\n\n\nDecision tree, response time\n73.9%\n61.9%\n+12.0 points\n\n\n\nThe tree clearly beat its baseline, with host behavior variables driving most of its splits. The KNN model only edged past its baseline, which is a finding in itself: listing numbers say little about which amenities a place offers."
+  },
+  {
+    "objectID": "projects/zurich-airbnb.html#what-i-learned",
+    "href": "projects/zurich-airbnb.html#what-i-learned",
+    "title": "Zurich Airbnb Classification",
+    "section": "What I learned",
+    "text": "What I learned\nAlways report the baseline. A model with 60% accuracy sounds fine until you see that guessing the most common answer gets you 59%. Comparing against a naive benchmark keeps the results honest.\nBack to projects"
   },
   {
     "objectID": "cv.html",
@@ -109,6 +235,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of academic and work projects. Course code stays private while classes are in session, and work projects are described without company data.\n\n\n\n\nCareer Evaluation Website\nTeam project · AD688 Big Data and Cloud Analytics · In progress\nA Quarto website that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design (NAICS 5415). I built the data pipeline that filters 504,208 raw job postings down to a 1,790-posting, 12-month panel, wrote the location and salary cleaning scripts (including a fix for Washington, DC postings being counted as Washington State), and wrote the project’s literature review.\nPython PySpark pandas AWS EC2 Quarto GitHub Pages\nVisit the team site\n\n\n\n\n\nJob Market Analytics with Apache Spark\nIndividual coursework · AD688 Big Data and Cloud Analytics\nTwo analyses of a large job postings dataset, run on an AWS EC2 instance. The first models the data as a star schema in Spark SQL and answers four business questions about salaries and demand across industries and states. The second cleans the raw postings in PySpark, recovers years of experience from job description text when the structured fields were blank, and charts salary patterns by industry, education, experience and remote status.\nPySpark Spark SQL Plotly Quarto AWS EC2\n\n\n\n\n\n\n\nZurich Airbnb Classification\nTeam project · AD699 Data Mining for Business Analytics\nClassification models built on 2,534 Zurich listings from Inside Airbnb. A k-nearest neighbors model predicts whether a listing offers a dedicated workspace, with k chosen by 10-fold cross-validation (60.8% test accuracy against a 58.7% baseline). A pruned decision tree predicts how quickly hosts respond across four classes, reaching 73.9% test accuracy against a 61.9% baseline.\nPython scikit-learn pandas Jupyter\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\nWork project · Royal Caribbean Group\nA reusable Python script that combines ship-by-ship planning tabs into one clean dataset each week. It uses fuzzy matching to line up port names that are spelled differently across sources, so the combined file can be checked against the itinerary system of record.\nPython pandas fuzzy string matching\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\nWork project · Royal Caribbean Group\nA Power BI dashboard that tracks guest satisfaction scores, connected live to Databricks through DirectQuery. I built the data model, the DAX measures and the Power Query steps so the team can follow satisfaction results in one place without exporting data by hand.\nPower BI DAX Power Query Databricks\n\n\n\n\n\n\n Back to top"
+    "text": "A selection of academic and work projects. Click any card for the full story, or use the categories to filter. Course code stays private while classes are in session, and work projects are described without company data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCareer Evaluation Website\n\n\n\nSchool\n\nTeam project\n\nBig Data\n\n\n\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Market Analytics with Apache Spark\n\n\n\nSchool\n\nBig Data\n\nAWS\n\n\n\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nZurich Airbnb Classification\n\n\n\nSchool\n\nTeam project\n\nMachine Learning\n\n\n\nKNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines.\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\n\n\n\nWork\n\nAutomation\n\nPython\n\n\n\nA reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\n\n\n\nWork\n\nBusiness Intelligence\n\n\n\nA Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]

@@ -71,14 +71,14 @@ random forests, with cross-validation and honest baselines.
 ::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/projects/career_site_job_volume.png){fig-alt="Bar chart of job posting volume by segment"}
 
-### Career Evaluation Website
+### [Career Evaluation Website](projects/career-site.qmd)
 A team-built site that helps analytics job seekers compare roles, salaries and
 skill demand, powered by a pipeline I built on 504,208 job postings.
 :::
 ::: {.g-col-12 .g-col-md-6 .project-card}
 ![](images/projects/spark_salary_by_industry.svg){fig-alt="Chart of salary by industry"}
 
-### Job Market Analytics with Apache Spark
+### [Job Market Analytics with Apache Spark](projects/spark-job-market.qmd)
 Star schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of
 salary patterns by industry, education and experience.
 :::

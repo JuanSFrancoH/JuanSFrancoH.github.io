@@ -1,0 +1,51 @@
+---
+title: "Career Evaluation Website"
+subtitle: "Team project · AD688 Big Data and Cloud Analytics · Boston University"
+description: "A team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design."
+image: ../images/projects/career_site_job_volume.png
+categories: [School, Team project, Big Data]
+---
+
+![](../images/projects/career_site_job_volume.png){fig-alt="Bar chart of job posting volume by segment"}
+
+::: {.project-facts}
+**My role:** data pipeline, cleaning and literature review<br>
+**Team:** 3 members<br>
+**Status:** in progress, final version due October 2026<br>
+**Tools:** [Python]{.tag} [PySpark]{.tag} [pandas]{.tag} [AWS EC2]{.tag} [Quarto]{.tag} [GitHub Pages]{.tag}
+:::
+
+## The problem
+
+Job seekers in analytics see thousands of postings but very little structure:
+which roles pay more, which skills matter and where the jobs actually are. Our
+team set out to build a site that answers those questions for one industry,
+Computer Systems Design and Related Services (NAICS 5415).
+
+## What I did
+
+- Built the data pipeline that filters a 504,208-row job postings extract down
+  to a clean, 12-month panel of 1,790 postings for NAICS 5415.
+- Wrote the location and salary cleaning scripts, including a fix for
+  Washington, DC postings that were being counted as Washington State.
+- Added role family and years of experience fields so the team could compare
+  roles side by side.
+- Proposed switching industries after finding that our first choice,
+  pharmaceutical manufacturing, had only 39 postings in the data.
+- Wrote the literature review that frames why the project matters.
+
+## Results
+
+The pipeline gives the team one consistent dataset that every page of the site
+draws from, and the numbers in the text are computed from the data instead of
+typed in by hand.
+
+## What I learned
+
+Most of the work in a data product happens before the first chart. Small
+cleaning decisions, like how to read a location field, can quietly change every
+number downstream, so I now check edge cases early and write down every rule I
+apply.
+
+[Visit the team site](https://jennader.github.io/METAD688_Group2/){.btn .btn-primary}
+[Back to projects](../projects.qmd){.btn .btn-outline-secondary}

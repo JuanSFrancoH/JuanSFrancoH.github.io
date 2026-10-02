@@ -168,3 +168,34 @@ body.quarto-dark .contact-list .bi { color: #7CC8C8; }
 @media (prefers-reduced-motion: reduce) {
   .hero, .stats, .skill-card, .project-card { animation: none; }
 }
+
+/* ---------- Project detail pages ---------- */
+.project-facts {
+  background: #F4F7F8;
+  border-left: 4px solid #2A7F83;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  line-height: 1.9;
+}
+body.quarto-dark .project-facts { background: #18252A; border-left-color: #5FB3B3; }
+
+/* ---------- Projects grid listing ---------- */
+.quarto-grid-item {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.quarto-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(15, 76, 92, 0.15);
+}
+.quarto-grid-item img.thumbnail-image {
+  object-fit: contain;
+  background: #F8F9FA;
+}
+body.quarto-dark .quarto-grid-item img.thumbnail-image { background: #0F1A1E; }
+.quarto-grid-item .listing-categories .listing-category,
+.quarto-listing-category .category {
+  border-radius: 999px;
+}
