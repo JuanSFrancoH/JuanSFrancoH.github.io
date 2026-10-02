@@ -199,3 +199,26 @@ body.quarto-dark .quarto-grid-item img.thumbnail-image { background: #0F1A1E; }
 .quarto-listing-category .category {
   border-radius: 999px;
 }
+
+/* ---------- Soft gray page: white surfaces ---------- */
+.stat, .skill-card, .project-card, .project-facts, .quarto-grid-item.card {
+  background: #FFFFFF;
+  border: 1px solid #E5EAEE;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+.project-facts { border-left: 4px solid #2A7F83; }
+.timeline-item::before { border-color: #F4F7F9; }
+.nav-footer { border-top: 1px solid #E5EAEE; }
+
+body.quarto-dark .stat,
+body.quarto-dark .skill-card,
+body.quarto-dark .project-card,
+body.quarto-dark .project-facts,
+body.quarto-dark .quarto-grid-item.card {
+  background: #18252A;
+  border-color: #2A3A40;
+  box-shadow: none;
+}
+body.quarto-dark .project-facts { border-left-color: #5FB3B3; }
+body.quarto-dark .timeline-item::before { border-color: #121A1E; }
+body.quarto-dark .nav-footer { border-top-color: #2A3A40; }
