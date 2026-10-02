@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - files/
 
 execute:
   freeze: auto
@@ -22,6 +24,9 @@ website:
       - icon: github
         href: https://github.com/JuanSFrancoH
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/juansfrancoh
+        aria-label: LinkedIn
   page-footer:
     center: "© 2026 Juan Franco · Built with Quarto"
 

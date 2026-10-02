@@ -2,4 +2,15 @@
 title: "Contact"
 ---
 
-Content coming soon.
+I'm always happy to talk about data science, analytics roles or any of the
+projects on this site. The best way to reach me is by email or LinkedIn.
+
+::: {.contact-list}
+<i class="bi bi-envelope"></i> [jfran291@bu.edu](mailto:jfran291@bu.edu)
+
+<i class="bi bi-linkedin"></i> [linkedin.com/in/juansfrancoh](https://www.linkedin.com/in/juansfrancoh)
+
+<i class="bi bi-github"></i> [github.com/JuanSFrancoH](https://github.com/JuanSFrancoH)
+
+<i class="bi bi-geo-alt"></i> Miami, Florida
+:::
