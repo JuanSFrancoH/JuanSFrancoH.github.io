@@ -222,3 +222,30 @@ body.quarto-dark .quarto-grid-item.card {
 body.quarto-dark .project-facts { border-left-color: #5FB3B3; }
 body.quarto-dark .timeline-item::before { border-color: #121A1E; }
 body.quarto-dark .nav-footer { border-top-color: #2A3A40; }
+
+/* ---------- Certifications and skill groups ---------- */
+.cert-card {
+  background: #FFFFFF;
+  border: 1px solid #E5EAEE;
+  border-radius: 12px;
+  padding: 0.9rem 1rem 0.9rem 3.2rem;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+.cert-card p { margin: 0; }
+.cert-card .bi {
+  position: absolute;
+  left: 1rem;
+  top: 0.9rem;
+  font-size: 1.5rem;
+  color: #2A7F83;
+}
+.skill-group {
+  display: block;
+  font-weight: 600;
+  color: #0F4C5C;
+  margin: 1rem 0 0.3rem;
+}
+body.quarto-dark .cert-card { background: #18252A; border-color: #2A3A40; box-shadow: none; }
+body.quarto-dark .cert-card .bi { color: #7CC8C8; }
+body.quarto-dark .skill-group { color: #A7E0DC; }
