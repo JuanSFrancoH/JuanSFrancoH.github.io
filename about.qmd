@@ -57,8 +57,9 @@ real problems whenever I can.
 
 **Senior Data Analyst**, Royal Caribbean Group
 
-Fleet deployment and itinerary analytics, Power BI dashboards and Python
-automation for weekly planning data.
+Deployment analysis across hundreds of itineraries, multiple ships and multiple
+years, Power BI dashboards used by analysts, teams and executives, and Python
+automation that cut analysis time by 30%.
 :::
 ::: {.timeline-item}
 [May 2024 to April 2026]{.timeline-date}

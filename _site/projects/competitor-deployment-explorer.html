@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.">
+<meta name="description" content="An interactive, map-based web app I built that turns 101,067 competitor port calls into sailing routes, pivots and dashboards.">
 
-<title>Guest Satisfaction Dashboard – Juan Franco</title>
+<title>Competitor Deployment Explorer – Juan Franco</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -82,13 +82,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Guest Satisfaction Dashboard – Juan Franco">
-<meta property="og:description" content="A Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.">
-<meta property="og:image" content="https://juansfrancoh.github.io/images/projects/dashboard_banner.svg">
+<meta property="og:title" content="Competitor Deployment Explorer – Juan Franco">
+<meta property="og:description" content="An interactive, map-based web app I built that turns 101,067 competitor port calls into sailing routes, pivots and dashboards.">
+<meta property="og:image" content="https://juansfrancoh.github.io/images/projects/explorer_banner.svg">
 <meta property="og:site_name" content="Juan Franco">
-<meta name="twitter:title" content="Guest Satisfaction Dashboard – Juan Franco">
-<meta name="twitter:description" content="A Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.">
-<meta name="twitter:image" content="https://juansfrancoh.github.io/images/projects/dashboard_banner.svg">
+<meta name="twitter:title" content="Competitor Deployment Explorer – Juan Franco">
+<meta name="twitter:description" content="An interactive, map-based web app I built that turns 101,067 competitor port calls into sailing routes, pivots and dashboards.">
+<meta name="twitter:image" content="https://juansfrancoh.github.io/images/projects/explorer_banner.svg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -322,17 +322,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Guest Satisfaction Dashboard</h1>
+<h1 class="title">Competitor Deployment Explorer</h1>
 <p class="subtitle lead">Work project · Royal Caribbean Group</p>
   <div class="quarto-categories">
     <div class="quarto-category">Work</div>
     <div class="quarto-category">Business Intelligence</div>
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Data Visualization</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    A Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.
+    An interactive, map-based web app I built that turns 101,067 competitor port calls into sailing routes, pivots and dashboards.
   </div>
 </div>
 
@@ -349,29 +351,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../images/projects/dashboard_banner.svg" class="img-fluid" alt="Guest Satisfaction Dashboard title banner"></p>
+<p><img src="../images/projects/explorer_banner.svg" class="img-fluid" alt="Competitor Deployment Explorer title banner"></p>
 <div class="project-facts">
-<p><strong>My role:</strong> data model, measures and report design<br> <strong>Tools:</strong> <span class="tag">Power BI</span> <span class="tag">DAX</span> <span class="tag">Power Query</span> <span class="tag">Databricks</span></p>
+<p><strong>My role:</strong> business questions, data rules, success criteria and validation<br> <strong>Data:</strong> 101,067 port calls across 9,068 voyages, with about 900 geocoded ports<br> <strong>Tools:</strong> <span class="tag">Python</span> <span class="tag">pandas</span> <span class="tag">JavaScript</span> <span class="tag">D3.js</span> <span class="tag">TopoJSON</span> <span class="tag">HTML/CSS</span> <span class="tag">Excel</span> <span class="tag">PowerPoint</span> <span class="tag">Playwright</span> <span class="tag">UN/LOCODE</span> <span class="tag">GeoNames</span> <span class="tag">Claude</span></p>
 </div>
 <section id="the-problem" class="level2">
 <h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
-<p>Guest satisfaction results lived in a data platform that most of the team did not query directly, so following them meant exporting and rebuilding reports by hand.</p>
+<p>Our deployment team needed to understand how competitors use key regions, but the source data was a flat table of 101,067 port-call rows across 9,068 voyages. It had no coordinates or distances, port names were inconsistent and some ports were miscoded. Answering questions like “what is each line’s most common turnaround pair in the Adriatic?” or “is this Panama Canal sailing a product or a repositioning?” meant manual spreadsheet work.</p>
 </section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I did</h2>
+<section id="what-it-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-does">What it does</h2>
+<p>I built a tool with three views, all driven by one shared set of filters: year, region, competitor, ship, itinerary, cruise ID, embark and debark port, open or closed jaw, port, country, nights and date range.</p>
 <ul>
-<li>Connected Power BI live to Databricks through DirectQuery, so the dashboard always shows current data.</li>
-<li>Built the data model, DAX measures and Power Query steps behind the report.</li>
-<li>Designed the report so the team can follow satisfaction results in one place.</li>
+<li><strong>Sailing Routes</strong> plots any sailing on a map. Routes follow the sea around land and through canals and straits, and they respect real limits: ships too wide for the Corinth Canal go around the Peloponnese instead. A day-by-day panel shows ship size and estimated distances, and a “previous and next” overlay shows how each ship moves between deployments.</li>
+<li><strong>Pivot</strong> works like an Excel pivot table in the browser. Any field can be a row or a column, measuring sailings, capacity (APCD), nights or distance as sums, averages or percentages, with CSV export.</li>
+<li><strong>Dashboard</strong> shows six headline figures and eight interactive charts, such as capacity by competitor and seasonality by month. Clicking any bar or pivot cell filters the whole page.</li>
+</ul>
+</section>
+<section id="how-i-built-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-built-it">How I built it</h2>
+<ul>
+<li><strong>Data pipeline (Python and pandas):</strong> I rebuilt each sailing’s stops from the raw port-call records and geocoded about 900 ports using our port table, the UN’s register of port locations (UN/LOCODE) and GeoNames. When several places shared a name, I picked the one closest to the neighboring calls.</li>
+<li><strong>Data quality:</strong> I added a plausibility check based on the speed a ship would need between two calls. It caught miscoded ports such as Trogir entered for Trondheim, Dublin for Dubrovnik, and Cartagena, Spain confused with Cartagena, Colombia. I log every correction.</li>
+<li><strong>Front end:</strong> a single self-contained web page built with D3.js and TopoJSON, with a custom route-finding algorithm that steers around land. It works on desktop and mobile.</li>
+<li><strong>Business rules:</strong> I defined the rules our team cares about: each line’s most common turnaround pair, standalone versus repositioning sailings based on each ship’s surrounding voyages, full versus half Panama Canal transits, Venice mid-cruise calls and a set of direct competitors.</li>
+<li><strong>Validation:</strong> I cross-check every filter value and count against the companion Excel workbook, sailing by sailing. Pivot totals tie to the workbook, distances come from one shared calculation, and browser tests run automatically with Playwright.</li>
 </ul>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>The dashboard is used by multiple teams, from analysts to executives, as their shared view of guest satisfaction results.</p>
+<ul>
+<li>Questions about regions and competitors that used to take manual spreadsheet work now take a few clicks.</li>
+<li>I also delivered an Excel workbook with sailing-level data, day-by-day itineraries, ship specs, top turnaround pairs and the correction log, plus executive slides profiling each region by competitor: round trip versus open jaw, standalone versus repositioning, average length, ship size and most common turnaround pair.</li>
+</ul>
 </section>
 <section id="what-i-learned" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-learned">What I learned</h2>
-<p>Live connections are powerful but come with trade-offs. With DirectQuery, every click sends a query, so measure design and model structure matter a lot more for performance than they do with imported data.</p>
+<p>I owned the business questions, data rules and success criteria, and I reviewed every output against what I know from operations. That review caught issues like unrealistic canal routings and misclassified sailings. I used Claude as a coding assistant to speed up the build. My biggest takeaway: AI makes building faster, but domain knowledge is what makes the results trustworthy.</p>
 <p><em>Details are kept general to protect company data.</em></p>
 <p><a href="../projects.html" class="btn btn-outline-secondary">Back to projects</a></p>
 

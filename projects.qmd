@@ -5,6 +5,7 @@ listing:
     - projects/career-site.qmd
     - projects/spark-job-market.qmd
     - projects/zurich-airbnb.qmd
+    - projects/competitor-deployment-explorer.qmd
     - projects/planning-file-consolidation.qmd
     - projects/guest-satisfaction-dashboard.qmd
   type: grid

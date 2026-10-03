@@ -28,6 +28,11 @@ one source to another, which makes comparisons error-prone.
 - Built it to run the same way every week, so the output is consistent and
   easy to repeat.
 
+## Results
+
+The script cut analysis time by 30% and gives the team one consistent
+dataset to work from every week.
+
 ## What I learned
 
 Real-world text is messy. A good automation script has to expect variations,

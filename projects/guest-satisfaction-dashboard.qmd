@@ -26,6 +26,11 @@ hand.
 - Built the data model, DAX measures and Power Query steps behind the report.
 - Designed the report so the team can follow satisfaction results in one place.
 
+## Results
+
+The dashboard is used by multiple teams, from analysts to executives, as
+their shared view of guest satisfaction results.
+
 ## What I learned
 
 Live connections are powerful but come with trade-offs. With DirectQuery, every

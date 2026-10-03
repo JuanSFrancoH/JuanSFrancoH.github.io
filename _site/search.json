@@ -60,7 +60,7 @@
     "href": "about.html#experience",
     "title": "About Me",
     "section": "Experience",
-    "text": "Experience\n\n\nApril 2026 to present\nSenior Data Analyst, Royal Caribbean Group\nFleet deployment and itinerary analytics, Power BI dashboards and Python automation for weekly planning data.\n\n\nMay 2024 to April 2026\nData Analyst, Norwegian Cruise Line Holdings\nRevenue and deployment analysis across global itineraries, Tableau dashboards and automated reporting that cut manual effort by 30 to 40%.\n\n\nApril 2022 to July 2024\nBusiness Analyst, Parkland Corporation\nPricing strategy, KPI reporting and cost analysis, including a 3% gross margin increase and an 11% reduction in overtime."
+    "text": "Experience\n\n\nApril 2026 to present\nSenior Data Analyst, Royal Caribbean Group\nDeployment analysis across hundreds of itineraries, multiple ships and multiple years, Power BI dashboards used by analysts, teams and executives, and Python automation that cut analysis time by 30%.\n\n\nMay 2024 to April 2026\nData Analyst, Norwegian Cruise Line Holdings\nRevenue and deployment analysis across global itineraries, Tableau dashboards and automated reporting that cut manual effort by 30 to 40%.\n\n\nApril 2022 to July 2024\nBusiness Analyst, Parkland Corporation\nPricing strategy, KPI reporting and cost analysis, including a 3% gross margin increase and an 11% reduction in overtime."
   },
   {
     "objectID": "about.html#education",
@@ -105,6 +105,13 @@
     "text": "What I did\n\nWrote a Python script that reads every ship’s tab, standardizes the columns and stacks them into one combined dataset.\nAdded fuzzy matching to line up port names that are spelled differently, so the combined file can be checked against the itinerary system of record.\nBuilt it to run the same way every week, so the output is consistent and easy to repeat."
   },
   {
+    "objectID": "projects/planning-file-consolidation.html#results",
+    "href": "projects/planning-file-consolidation.html#results",
+    "title": "Weekly Planning File Consolidation",
+    "section": "Results",
+    "text": "Results\nThe script cut analysis time by 30% and gives the team one consistent dataset to work from every week."
+  },
+  {
     "objectID": "projects/planning-file-consolidation.html#what-i-learned",
     "href": "projects/planning-file-consolidation.html#what-i-learned",
     "title": "Weekly Planning File Consolidation",
@@ -126,11 +133,53 @@
     "text": "What I did\n\nConnected Power BI live to Databricks through DirectQuery, so the dashboard always shows current data.\nBuilt the data model, DAX measures and Power Query steps behind the report.\nDesigned the report so the team can follow satisfaction results in one place."
   },
   {
+    "objectID": "projects/guest-satisfaction-dashboard.html#results",
+    "href": "projects/guest-satisfaction-dashboard.html#results",
+    "title": "Guest Satisfaction Dashboard",
+    "section": "Results",
+    "text": "Results\nThe dashboard is used by multiple teams, from analysts to executives, as their shared view of guest satisfaction results."
+  },
+  {
     "objectID": "projects/guest-satisfaction-dashboard.html#what-i-learned",
     "href": "projects/guest-satisfaction-dashboard.html#what-i-learned",
     "title": "Guest Satisfaction Dashboard",
     "section": "What I learned",
     "text": "What I learned\nLive connections are powerful but come with trade-offs. With DirectQuery, every click sends a query, so measure design and model structure matter a lot more for performance than they do with imported data.\nDetails are kept general to protect company data.\nBack to projects"
+  },
+  {
+    "objectID": "projects/career-site.html#the-problem",
+    "href": "projects/career-site.html#the-problem",
+    "title": "Career Evaluation Website",
+    "section": "The problem",
+    "text": "The problem\nJob seekers in analytics see thousands of postings but very little structure: which roles pay more, which skills matter and where the jobs actually are. Our team set out to build a site that answers those questions for one industry, Computer Systems Design and Related Services (NAICS 5415)."
+  },
+  {
+    "objectID": "projects/career-site.html#what-i-did",
+    "href": "projects/career-site.html#what-i-did",
+    "title": "Career Evaluation Website",
+    "section": "What I did",
+    "text": "What I did\n\nBuilt the data pipeline that filters a 504,208-row job postings extract down to a clean, 12-month panel of 1,790 postings for NAICS 5415.\nWrote the location and salary cleaning scripts, including a fix for Washington, DC postings that were being counted as Washington State.\nAdded role family and years of experience fields so the team could compare roles side by side.\nProposed switching industries after finding that our first choice, pharmaceutical manufacturing, had only 39 postings in the data.\nWrote the literature review that frames why the project matters."
+  },
+  {
+    "objectID": "projects/career-site.html#results",
+    "href": "projects/career-site.html#results",
+    "title": "Career Evaluation Website",
+    "section": "Results",
+    "text": "Results\nThe pipeline gives the team one consistent dataset that every page of the site draws from, and the numbers in the text are computed from the data instead of typed in by hand."
+  },
+  {
+    "objectID": "projects/career-site.html#what-i-learned",
+    "href": "projects/career-site.html#what-i-learned",
+    "title": "Career Evaluation Website",
+    "section": "What I learned",
+    "text": "What I learned\nMost of the work in a data product happens before the first chart. Small cleaning decisions, like how to read a location field, can quietly change every number downstream, so I now check edge cases early and write down every rule I apply.\nVisit the team site Back to projects"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always happy to talk about data science, analytics roles or any of the projects on this site. The best way to reach me is by email or LinkedIn.\n\n jfran291@bu.edu\n linkedin.com/in/juansfrancoh\n github.com/JuanSFrancoH\n Miami, Florida\n\n\n\n\n Back to top"
   },
   {
     "objectID": "projects/spark-job-market.html#the-problem",
@@ -161,39 +210,39 @@
     "text": "What I learned\nWorking at scale changes your habits. I now check data quality before modeling, keep the raw data untouched and expect infrastructure issues, like memory and sessions, to be part of the job rather than a surprise.\nThe code stays private while the course is in session.\nBack to projects"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I’m always happy to talk about data science, analytics roles or any of the projects on this site. The best way to reach me is by email or LinkedIn.\n\n jfran291@bu.edu\n linkedin.com/in/juansfrancoh\n github.com/JuanSFrancoH\n Miami, Florida\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "projects/career-site.html#the-problem",
-    "href": "projects/career-site.html#the-problem",
-    "title": "Career Evaluation Website",
+    "objectID": "projects/competitor-deployment-explorer.html#the-problem",
+    "href": "projects/competitor-deployment-explorer.html#the-problem",
+    "title": "Competitor Deployment Explorer",
     "section": "The problem",
-    "text": "The problem\nJob seekers in analytics see thousands of postings but very little structure: which roles pay more, which skills matter and where the jobs actually are. Our team set out to build a site that answers those questions for one industry, Computer Systems Design and Related Services (NAICS 5415)."
+    "text": "The problem\nOur deployment team needed to understand how competitors use key regions, but the source data was a flat table of 101,067 port-call rows across 9,068 voyages. It had no coordinates or distances, port names were inconsistent and some ports were miscoded. Answering questions like “what is each line’s most common turnaround pair in the Adriatic?” or “is this Panama Canal sailing a product or a repositioning?” meant manual spreadsheet work."
   },
   {
-    "objectID": "projects/career-site.html#what-i-did",
-    "href": "projects/career-site.html#what-i-did",
-    "title": "Career Evaluation Website",
-    "section": "What I did",
-    "text": "What I did\n\nBuilt the data pipeline that filters a 504,208-row job postings extract down to a clean, 12-month panel of 1,790 postings for NAICS 5415.\nWrote the location and salary cleaning scripts, including a fix for Washington, DC postings that were being counted as Washington State.\nAdded role family and years of experience fields so the team could compare roles side by side.\nProposed switching industries after finding that our first choice, pharmaceutical manufacturing, had only 39 postings in the data.\nWrote the literature review that frames why the project matters."
+    "objectID": "projects/competitor-deployment-explorer.html#what-it-does",
+    "href": "projects/competitor-deployment-explorer.html#what-it-does",
+    "title": "Competitor Deployment Explorer",
+    "section": "What it does",
+    "text": "What it does\nI built a tool with three views, all driven by one shared set of filters: year, region, competitor, ship, itinerary, cruise ID, embark and debark port, open or closed jaw, port, country, nights and date range.\n\nSailing Routes plots any sailing on a map. Routes follow the sea around land and through canals and straits, and they respect real limits: ships too wide for the Corinth Canal go around the Peloponnese instead. A day-by-day panel shows ship size and estimated distances, and a “previous and next” overlay shows how each ship moves between deployments.\nPivot works like an Excel pivot table in the browser. Any field can be a row or a column, measuring sailings, capacity (APCD), nights or distance as sums, averages or percentages, with CSV export.\nDashboard shows six headline figures and eight interactive charts, such as capacity by competitor and seasonality by month. Clicking any bar or pivot cell filters the whole page."
   },
   {
-    "objectID": "projects/career-site.html#results",
-    "href": "projects/career-site.html#results",
-    "title": "Career Evaluation Website",
+    "objectID": "projects/competitor-deployment-explorer.html#how-i-built-it",
+    "href": "projects/competitor-deployment-explorer.html#how-i-built-it",
+    "title": "Competitor Deployment Explorer",
+    "section": "How I built it",
+    "text": "How I built it\n\nData pipeline (Python and pandas): I rebuilt each sailing’s stops from the raw port-call records and geocoded about 900 ports using our port table, the UN’s register of port locations (UN/LOCODE) and GeoNames. When several places shared a name, I picked the one closest to the neighboring calls.\nData quality: I added a plausibility check based on the speed a ship would need between two calls. It caught miscoded ports such as Trogir entered for Trondheim, Dublin for Dubrovnik, and Cartagena, Spain confused with Cartagena, Colombia. I log every correction.\nFront end: a single self-contained web page built with D3.js and TopoJSON, with a custom route-finding algorithm that steers around land. It works on desktop and mobile.\nBusiness rules: I defined the rules our team cares about: each line’s most common turnaround pair, standalone versus repositioning sailings based on each ship’s surrounding voyages, full versus half Panama Canal transits, Venice mid-cruise calls and a set of direct competitors.\nValidation: I cross-check every filter value and count against the companion Excel workbook, sailing by sailing. Pivot totals tie to the workbook, distances come from one shared calculation, and browser tests run automatically with Playwright."
+  },
+  {
+    "objectID": "projects/competitor-deployment-explorer.html#results",
+    "href": "projects/competitor-deployment-explorer.html#results",
+    "title": "Competitor Deployment Explorer",
     "section": "Results",
-    "text": "Results\nThe pipeline gives the team one consistent dataset that every page of the site draws from, and the numbers in the text are computed from the data instead of typed in by hand."
+    "text": "Results\n\nQuestions about regions and competitors that used to take manual spreadsheet work now take a few clicks.\nI also delivered an Excel workbook with sailing-level data, day-by-day itineraries, ship specs, top turnaround pairs and the correction log, plus executive slides profiling each region by competitor: round trip versus open jaw, standalone versus repositioning, average length, ship size and most common turnaround pair."
   },
   {
-    "objectID": "projects/career-site.html#what-i-learned",
-    "href": "projects/career-site.html#what-i-learned",
-    "title": "Career Evaluation Website",
+    "objectID": "projects/competitor-deployment-explorer.html#what-i-learned",
+    "href": "projects/competitor-deployment-explorer.html#what-i-learned",
+    "title": "Competitor Deployment Explorer",
     "section": "What I learned",
-    "text": "What I learned\nMost of the work in a data product happens before the first chart. Small cleaning decisions, like how to read a location field, can quietly change every number downstream, so I now check edge cases early and write down every rule I apply.\nVisit the team site Back to projects"
+    "text": "What I learned\nI owned the business questions, data rules and success criteria, and I reviewed every output against what I know from operations. That review caught issues like unrealistic canal routings and misclassified sailings. I used Claude as a coding assistant to speed up the build. My biggest takeaway: AI makes building faster, but domain knowledge is what makes the results trustworthy.\nDetails are kept general to protect company data.\nBack to projects"
   },
   {
     "objectID": "projects/zurich-airbnb.html#the-problem",
@@ -235,6 +284,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of academic and work projects. Click any card for the full story, or use the categories to filter.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCareer Evaluation Website\n\n\n\nSchool\n\nTeam project\n\nBig Data\n\n\n\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Market Analytics with Apache Spark\n\n\n\nSchool\n\nBig Data\n\nAWS\n\n\n\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nZurich Airbnb Classification\n\n\n\nSchool\n\nTeam project\n\nMachine Learning\n\n\n\nKNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines.\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\n\n\n\nWork\n\nAutomation\n\nPython\n\n\n\nA reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\n\n\n\nWork\n\nBusiness Intelligence\n\n\n\nA Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "A selection of academic and work projects. Click any card for the full story, or use the categories to filter.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCareer Evaluation Website\n\n\n\nSchool\n\nTeam project\n\nBig Data\n\n\n\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Market Analytics with Apache Spark\n\n\n\nSchool\n\nBig Data\n\nAWS\n\n\n\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nZurich Airbnb Classification\n\n\n\nSchool\n\nTeam project\n\nMachine Learning\n\n\n\nKNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines.\n\n\n\n\n\n\n\n\n\n\n\n\nCompetitor Deployment Explorer\n\n\n\nWork\n\nBusiness Intelligence\n\nPython\n\nData Visualization\n\n\n\nAn interactive, map-based web app I built that turns 101,067 competitor port calls into sailing routes, pivots and dashboards.\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\n\n\n\nWork\n\nAutomation\n\nPython\n\n\n\nA reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\n\n\n\nWork\n\nBusiness Intelligence\n\n\n\nA Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]
