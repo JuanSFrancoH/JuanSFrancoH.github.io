@@ -1,24 +1,32 @@
 ---
 pagetitle: "Juan Franco | Data Analyst"
+resources:
+  - js/hero.js
 ---
 
-::: {.hero}
-<img src="images/headshot.jpg" alt="Photo of Juan Franco" class="headshot">
-
-::: {.hero-text}
-[Data Analyst · Cruise Industry · Miami]{.hero-kicker}
-
-[Juan Franco]{.hero-name}
-
-Senior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics
-candidate at Boston University. I turn large, messy operational data into
-dashboards, models and decisions, and I'm building toward a career in data
-science and machine learning.
-
-[View my projects](projects.qmd){.btn .btn-primary}
-[Download my CV](files/Juan_Franco_CV.pdf){.btn .btn-outline-primary}
-[Get in touch](contact.qmd){.btn .btn-outline-secondary}
-:::
+::: {.hero .column-screen}
+```{=html}
+<canvas id="hero-network" aria-hidden="true"></canvas>
+<div class="hero-inner">
+  <div class="hero-text">
+    <p class="hero-hello">Hi There,</p>
+    <h1 class="hero-name">I'm Juan <span class="accent">Franco</span></h1>
+    <p class="hero-typing">I'm into <span class="typed" data-words="Data Analytics|Machine Learning|Cloud Analytics|Power BI Dashboards|Python and SQL"></span><span class="caret">|</span></p>
+    <p class="hero-lead">Senior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics
+    candidate at Boston University. I turn large, messy operational data into dashboards, models
+    and decisions, and I'm building toward a career in data science and machine learning.</p>
+    <a class="btn btn-primary btn-glow" href="about.html">About Me <i class="bi bi-arrow-right-circle-fill"></i></a>
+    <a class="btn btn-outline-primary" href="projects.html">View my projects</a>
+    <div class="hero-social">
+      <a href="https://www.linkedin.com/in/juansfrancoh" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/JuanSFrancoH" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="mailto:jfran291@bu.edu" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="files/Juan_Franco_CV.pdf" aria-label="Download CV"><i class="bi bi-file-earmark-person-fill"></i></a>
+    </div>
+  </div>
+  <div class="hero-photo"><img src="images/headshot.jpg" alt="Photo of Juan Franco" class="headshot"></div>
+</div>
+```
 :::
 
 ::: {.grid .stats}
@@ -92,3 +100,7 @@ I'm finishing my M.S. at Boston University with Big Data and Cloud Analytics,
 working with PySpark, AWS and Spark ML on a team project that maps the job
 market for analytics roles. At work, I'm automating more of our weekly
 planning data with Python.
+
+```{=html}
+<script src="js/hero.js"></script>
+```

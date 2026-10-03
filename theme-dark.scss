@@ -1,29 +1,32 @@
 /*-- scss:defaults --*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-$primary: #5FB3B3;
-$link-color: #7CC8C8;
-$body-bg: #121A1E;
-$body-color: #E2E8F0;
+$font-family-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$primary: #8F82FF;
+$link-color: #A99FFF;
+$body-bg: #0B1023;
+$body-color: #E4E7F5;
+$headings-color: #F1F3FB;
 $headings-font-weight: 700;
-$navbar-bg: #0B2F38;
+$navbar-bg: #0E1630;
 $navbar-fg: #FFFFFF;
-$navbar-hl: #A7E0DC;
-$footer-bg: #0E171A;
+$navbar-hl: #FFB067;
+$footer-bg: #0E1630;
 
 /*-- scss:rules --*/
 .quarto-title .title { letter-spacing: -0.02em; }
-.quarto-title .subtitle { color: #9AA8AE; font-size: 1.1rem; }
+.quarto-title .subtitle { color: #A3A9C2; font-size: 1.1rem; }
 h2 {
-  border-bottom: 2px solid #2A3A40;
+  border-bottom: 2px solid #26304F;
   padding-bottom: 0.3rem;
   margin-top: 2rem;
 }
 .btn {
   border-radius: 999px;
-  padding: 0.5rem 1.15rem;
+  padding: 0.55rem 1.25rem;
   margin: 0.25rem 0.4rem 0.25rem 0;
-  font-weight: 500;
+  font-weight: 600;
 }
+.navbar .nav-link { font-weight: 600; }
+.navbar .nav-link.active { border-bottom: 3px solid #FFB067; }
 .nav-footer { font-size: 0.85rem; }

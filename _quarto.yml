@@ -17,6 +17,7 @@ website:
   twitter-card: true
   back-to-top-navigation: true
   navbar:
+    logo: images/favicon.svg
     left:
       - href: about.qmd
         text: About

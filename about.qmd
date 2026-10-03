@@ -86,15 +86,18 @@ increase and an 11% reduction in overtime.
 
 **M.S. in Applied Business Analytics**, Boston University
 
-Merit Scholarship. Coursework in big data and cloud analytics, data mining,
-deep learning, generative AI and enterprise risk analytics.
+Merit Scholarship. Courses taken:
+
+[Big Data and Cloud Analytics]{.tag} [Applied Generative AI for Business Analytics]{.tag} [Deep Learning]{.tag} [Data Mining for Business Analytics]{.tag} [Enterprise Risk Analytics]{.tag} [Quantitative and Qualitative Decision Making]{.tag} [Python and SQL for Business Analytics]{.tag} [Business Analytics Foundations]{.tag} [Operations Management]{.tag} [Financial Concepts]{.tag}
 :::
 ::: {.timeline-item}
 [December 2023]{.timeline-date}
 
 **B.B.A. in Finance**, Florida International University
 
-Dean's List and member of The National Society of Leadership and Success.
+Dean's List and member of The National Society of Leadership and Success. Courses taken:
+
+[Securities Analysis]{.tag} [Financial Markets]{.tag} [Financial Management]{.tag} [Intermediate Finance]{.tag} [International Banking]{.tag} [Commercial Banking]{.tag} [Financial Accounting]{.tag} [Managerial Accounting]{.tag} [Business Statistics and Analysis]{.tag} [Microeconomics]{.tag} [Macroeconomics]{.tag} [Business Law]{.tag}
 :::
 :::
 

@@ -16,5 +16,4 @@ listing:
 ---
 
 A selection of academic and work projects. Click any card for the full story,
-or use the categories to filter. Course code stays private while classes are in
-session, and work projects are described without company data.
+or use the categories to filter.
