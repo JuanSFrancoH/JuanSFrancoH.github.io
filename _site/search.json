@@ -60,7 +60,7 @@
     "href": "about.html#experience",
     "title": "About Me",
     "section": "Experience",
-    "text": "Experience\n\n\nApril 2026 to present\nSenior Data Analyst, Royal Caribbean Group\nFleet deployment and itinerary analytics, Power BI dashboards and Python automation for weekly planning data.\n\n\nAugust 2024 to March 2026\nAnalyst, Norwegian Cruise Line Holdings\nRevenue and deployment analysis across global itineraries, Tableau dashboards and automated reporting that cut manual effort by 30 to 40%.\n\n\nApril 2022 to July 2024\nBusiness Analyst, Parkland Corporation\nPricing strategy, KPI reporting and cost analysis, including a 3% gross margin increase and an 11% reduction in overtime."
+    "text": "Experience\n\n\nApril 2026 to present\nSenior Data Analyst, Royal Caribbean Group\nFleet deployment and itinerary analytics, Power BI dashboards and Python automation for weekly planning data.\n\n\nMay 2024 to April 2026\nData Analyst, Norwegian Cruise Line Holdings\nRevenue and deployment analysis across global itineraries, Tableau dashboards and automated reporting that cut manual effort by 30 to 40%.\n\n\nApril 2022 to July 2024\nBusiness Analyst, Parkland Corporation\nPricing strategy, KPI reporting and cost analysis, including a 3% gross margin increase and an 11% reduction in overtime."
   },
   {
     "objectID": "about.html#education",
@@ -74,14 +74,14 @@
     "href": "about.html#certifications",
     "title": "About Me",
     "section": "Certifications",
-    "text": "Certifications\n\nData Analyst in Python, DataCamp\nData Analyst in SQL, DataCamp\nData Analyst in Tableau, DataCamp"
+    "text": "Certifications\n\n\n Data Analyst in PythonDataCamp · December 2025\n\n\n Data Analyst in SQLDataCamp · March 2025\n\n\n Data Analyst in TableauDataCamp · November 2024\n\n\n Certificate in International Bank ManagementFlorida International University, College of Business · December 2023\n\n\n Certificate in BankingFlorida International University, College of Business · December 2023"
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
     "title": "About Me",
     "section": "Skills",
-    "text": "Skills\nPython SQL PySpark Spark SQL R pandas scikit-learn Excel Power BI DAX Power Query Tableau Plotly AWS EC2 Databricks Git and GitHub Quarto Classification Forecasting Data modeling English and Spanish"
+    "text": "Skills\nProgramming and databases Python R and RStudio SQL PostgreSQL MySQL Oracle SQL Developer PySpark Spark SQL pandas NumPy Matplotlib Seaborn scikit-learn Plotly Coding\nAI and machine learning Artificial Intelligence (AI) Machine Learning Deep Learning Data Mining Classification Data Science\nStatistics and modeling Statistics Statistical Analysis (t-tests, chi-square, correlations) Statistical Modeling Statistical and Quantitative Analysis Quantitative Modeling Quantitative Analytics A/B Testing and Experimentation Sampling and Bootstrapping Monte Carlo Simulation Computer Simulations Optimization Excel Solver Forecasting Exploratory Data Analysis (EDA) Data Modeling Relational Data Modeling\nBusiness intelligence and visualization Microsoft Power BI DAX Power Query Power Pivot Tableau Dashboards KPIs Data Visualization Reporting, Insights and Data Storytelling Business Intelligence (BI)\nCloud and tools Cloud Analytics AWS EC2 Apache Spark Databricks Git and GitHub Quarto Web Design Microsoft Excel Pivot Tables XLOOKUP Microsoft PowerPoint\nAnalysis Data Analysis Data Analytics Business Analysis Analytical Skills\nFinance Financial Analysis Financial Modeling 3-Statement Modeling DCF Valuation Leveraged Buyouts (LBO) Valuation Modeling Investment Valuation Financial Statement Analysis Capital Structure Budgeting Risk Management Business Strategy and Financial Evaluation Investments Stocks Bonds Options ETFs Finance Financial Accounting Management Accounting U.S. GAAP Income Tax Macroeconomics Microeconomics\nBusiness and communication Strategic Planning Business Administration Communication Public Relations Attention to Detail English and Spanish"
   },
   {
     "objectID": "about.html#outside-of-work",
@@ -228,7 +228,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "I’m a data analyst with more than four years of experience in analytics, first in pricing and operations at Parkland Corporation and then in the cruise industry at Norwegian Cruise Line Holdings and Royal Caribbean Group. My work centers on turning large, messy operational data into dashboards, models and recommendations that planning teams can act on.\n\nSenior Data Analyst, Royal Caribbean Group (2026 to present)\nAnalyst, Norwegian Cruise Line Holdings (2024 to 2026)\nBusiness Analyst, Parkland Corporation (2022 to 2024)\nM.S. in Applied Business Analytics, Boston University (expected October 2026)\nB.B.A. in Finance, Florida International University (2023)\n\n Download my CV (PDF)\n\n\n\n\n\n Back to top"
+    "text": "I’m a data analyst with more than four years of experience in analytics, first in pricing and operations at Parkland Corporation and then in the cruise industry at Norwegian Cruise Line Holdings and Royal Caribbean Group. My work centers on turning large, messy operational data into dashboards, models and recommendations that planning teams can act on.\n\nSenior Data Analyst, Royal Caribbean Group (2026 to present)\nData Analyst, Norwegian Cruise Line Holdings (2024 to 2026)\nBusiness Analyst, Parkland Corporation (2022 to 2024)\nM.S. in Applied Business Analytics, Boston University (expected October 2026)\nB.B.A. in Finance, Florida International University (2023)\n\n Download my CV (PDF)\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "projects.html",

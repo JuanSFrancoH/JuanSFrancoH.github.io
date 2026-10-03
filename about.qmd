@@ -61,9 +61,9 @@ Fleet deployment and itinerary analytics, Power BI dashboards and Python
 automation for weekly planning data.
 :::
 ::: {.timeline-item}
-[August 2024 to March 2026]{.timeline-date}
+[May 2024 to April 2026]{.timeline-date}
 
-**Analyst**, Norwegian Cruise Line Holdings
+**Data Analyst**, Norwegian Cruise Line Holdings
 
 Revenue and deployment analysis across global itineraries, Tableau dashboards
 and automated reporting that cut manual effort by 30 to 40%.
@@ -100,18 +100,54 @@ Dean's List and member of The National Society of Leadership and Success.
 
 ## Certifications
 
-- Data Analyst in Python, DataCamp
-- Data Analyst in SQL, DataCamp
-- Data Analyst in Tableau, DataCamp
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .cert-card}
+<i class="bi bi-patch-check"></i>
+**Data Analyst in Python**<br>DataCamp · December 2025
+:::
+::: {.g-col-12 .g-col-md-6 .cert-card}
+<i class="bi bi-patch-check"></i>
+**Data Analyst in SQL**<br>DataCamp · March 2025
+:::
+::: {.g-col-12 .g-col-md-6 .cert-card}
+<i class="bi bi-patch-check"></i>
+**Data Analyst in Tableau**<br>DataCamp · November 2024
+:::
+::: {.g-col-12 .g-col-md-6 .cert-card}
+<i class="bi bi-bank"></i>
+**Certificate in International Bank Management**<br>Florida International University, College of Business · December 2023
+:::
+::: {.g-col-12 .g-col-md-6 .cert-card}
+<i class="bi bi-bank"></i>
+**Certificate in Banking**<br>Florida International University, College of Business · December 2023
+:::
+:::
 
 ## Skills
 
-[Python]{.tag} [SQL]{.tag} [PySpark]{.tag} [Spark SQL]{.tag} [R]{.tag}
-[pandas]{.tag} [scikit-learn]{.tag} [Excel]{.tag} [Power BI]{.tag}
-[DAX]{.tag} [Power Query]{.tag} [Tableau]{.tag} [Plotly]{.tag}
-[AWS EC2]{.tag} [Databricks]{.tag} [Git and GitHub]{.tag} [Quarto]{.tag}
-[Classification]{.tag} [Forecasting]{.tag} [Data modeling]{.tag}
-[English and Spanish]{.tag}
+[Programming and databases]{.skill-group}
+[Python]{.tag} [R and RStudio]{.tag} [SQL]{.tag} [PostgreSQL]{.tag} [MySQL]{.tag} [Oracle SQL Developer]{.tag} [PySpark]{.tag} [Spark SQL]{.tag} [pandas]{.tag} [NumPy]{.tag} [Matplotlib]{.tag} [Seaborn]{.tag} [scikit-learn]{.tag} [Plotly]{.tag} [Coding]{.tag}
+
+[AI and machine learning]{.skill-group}
+[Artificial Intelligence (AI)]{.tag} [Machine Learning]{.tag} [Deep Learning]{.tag} [Data Mining]{.tag} [Classification]{.tag} [Data Science]{.tag}
+
+[Statistics and modeling]{.skill-group}
+[Statistics]{.tag} [Statistical Analysis (t-tests, chi-square, correlations)]{.tag} [Statistical Modeling]{.tag} [Statistical and Quantitative Analysis]{.tag} [Quantitative Modeling]{.tag} [Quantitative Analytics]{.tag} [A/B Testing and Experimentation]{.tag} [Sampling and Bootstrapping]{.tag} [Monte Carlo Simulation]{.tag} [Computer Simulations]{.tag} [Optimization]{.tag} [Excel Solver]{.tag} [Forecasting]{.tag} [Exploratory Data Analysis (EDA)]{.tag} [Data Modeling]{.tag} [Relational Data Modeling]{.tag}
+
+[Business intelligence and visualization]{.skill-group}
+[Microsoft Power BI]{.tag} [DAX]{.tag} [Power Query]{.tag} [Power Pivot]{.tag} [Tableau]{.tag} [Dashboards]{.tag} [KPIs]{.tag} [Data Visualization]{.tag} [Reporting, Insights and Data Storytelling]{.tag} [Business Intelligence (BI)]{.tag}
+
+[Cloud and tools]{.skill-group}
+[Cloud Analytics]{.tag} [AWS EC2]{.tag} [Apache Spark]{.tag} [Databricks]{.tag} [Git and GitHub]{.tag} [Quarto]{.tag} [Web Design]{.tag} [Microsoft Excel]{.tag} [Pivot Tables]{.tag} [XLOOKUP]{.tag} [Microsoft PowerPoint]{.tag}
+
+[Analysis]{.skill-group}
+[Data Analysis]{.tag} [Data Analytics]{.tag} [Business Analysis]{.tag} [Analytical Skills]{.tag}
+
+[Finance]{.skill-group}
+[Financial Analysis]{.tag} [Financial Modeling]{.tag} [3-Statement Modeling]{.tag} [DCF Valuation]{.tag} [Leveraged Buyouts (LBO)]{.tag} [Valuation Modeling]{.tag} [Investment Valuation]{.tag} [Financial Statement Analysis]{.tag} [Capital Structure]{.tag} [Budgeting]{.tag} [Risk Management]{.tag} [Business Strategy and Financial Evaluation]{.tag} [Investments]{.tag} [Stocks]{.tag} [Bonds]{.tag} [Options]{.tag} [ETFs]{.tag} [Finance]{.tag} [Financial Accounting]{.tag} [Management Accounting]{.tag} [U.S. GAAP]{.tag} [Income Tax]{.tag} [Macroeconomics]{.tag} [Microeconomics]{.tag}
+
+[Business and communication]{.skill-group}
+[Strategic Planning]{.tag} [Business Administration]{.tag} [Communication]{.tag} [Public Relations]{.tag} [Attention to Detail]{.tag} [English and Spanish]{.tag}
 
 ## Outside of work
 
