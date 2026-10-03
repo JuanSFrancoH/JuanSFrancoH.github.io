@@ -2,28 +2,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Juan Franco",
+    "title": "I'm Juan Franco",
     "section": "",
-    "text": "Data Analyst · Cruise Industry · Miami\nJuan Franco\nSenior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics candidate at Boston University. I turn large, messy operational data into dashboards, models and decisions, and I’m building toward a career in data science and machine learning.\nView my projects Download my CV Get in touch"
+    "text": "Hi There,\n    \n    I'm into |\n    Senior Data Analyst at Royal Caribbean Group and M.S. in Business Analytics\n    candidate at Boston University. I turn large, messy operational data into dashboards, models\n    and decisions, and I'm building toward a career in data science and machine learning.\n    About Me \n    View my projects"
   },
   {
     "objectID": "index.html#what-i-do",
     "href": "index.html#what-i-do",
-    "title": "Juan Franco",
+    "title": "I'm Juan Franco",
     "section": "What I do",
     "text": "What I do\n\n\n\n\nData engineering and cloud\nBuilding Spark pipelines on AWS, cleaning and reshaping large datasets, and modeling data as star schemas that are easy to query.\n\n\n\n\n\nAnalytics and BI\nDesigning Power BI and Tableau dashboards that teams use every week, with clear KPIs, solid data models and trend and variance analysis.\n\n\n\n\n\nMachine learning\nTraining and tuning classification models such as KNN, decision trees and random forests, with cross-validation and honest baselines."
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
-    "title": "Juan Franco",
+    "title": "I'm Juan Franco",
     "section": "Featured projects",
     "text": "Featured projects\n\n\n\n\nCareer Evaluation Website\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand, powered by a pipeline I built on 504,208 job postings.\n\n\n\n\n\nJob Market Analytics with Apache Spark\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns by industry, education and experience.\n\n\n\nSee all projects"
   },
   {
     "objectID": "index.html#right-now",
     "href": "index.html#right-now",
-    "title": "Juan Franco",
+    "title": "I'm Juan Franco",
     "section": "Right now",
     "text": "Right now\nI’m finishing my M.S. at Boston University with Big Data and Cloud Analytics, working with PySpark, AWS and Spark ML on a team project that maps the job market for analytics roles. At work, I’m automating more of our weekly planning data with Python."
   },
@@ -67,7 +67,7 @@
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\n\nExpected October 2026\nM.S. in Applied Business Analytics, Boston University\nMerit Scholarship. Coursework in big data and cloud analytics, data mining, deep learning, generative AI and enterprise risk analytics.\n\n\nDecember 2023\nB.B.A. in Finance, Florida International University\nDean’s List and member of The National Society of Leadership and Success."
+    "text": "Education\n\n\nExpected October 2026\nM.S. in Applied Business Analytics, Boston University\nMerit Scholarship. Courses taken:\nBig Data and Cloud Analytics Applied Generative AI for Business Analytics Deep Learning Data Mining for Business Analytics Enterprise Risk Analytics Quantitative and Qualitative Decision Making Python and SQL for Business Analytics Business Analytics Foundations Operations Management Financial Concepts\n\n\nDecember 2023\nB.B.A. in Finance, Florida International University\nDean’s List and member of The National Society of Leadership and Success. Courses taken:\nSecurities Analysis Financial Markets Financial Management Intermediate Finance International Banking Commercial Banking Financial Accounting Managerial Accounting Business Statistics and Analysis Microeconomics Macroeconomics Business Law"
   },
   {
     "objectID": "about.html#certifications",
@@ -228,13 +228,13 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "I’m a data analyst with more than four years of experience in analytics, first in pricing and operations at Parkland Corporation and then in the cruise industry at Norwegian Cruise Line Holdings and Royal Caribbean Group. My work centers on turning large, messy operational data into dashboards, models and recommendations that planning teams can act on.\n\nSenior Data Analyst, Royal Caribbean Group (2026 to present)\nData Analyst, Norwegian Cruise Line Holdings (2024 to 2026)\nBusiness Analyst, Parkland Corporation (2022 to 2024)\nM.S. in Applied Business Analytics, Boston University (expected October 2026)\nB.B.A. in Finance, Florida International University (2023)\n\n Download my CV (PDF)\n\n\n\n\n\n Back to top"
+    "text": "I’m a data analyst with more than four years of experience in analytics. My work centers on turning large, messy operational data into dashboards, models, and recommendations executives can act on.\n\nSenior Data Analyst, Royal Caribbean Group (2026 to present)\nData Analyst, Norwegian Cruise Line Holdings (2024 to 2026)\nBusiness Analyst, Parkland Corporation (2022 to 2024)\nM.S. in Applied Business Analytics, Boston University (expected October 2026)\nB.B.A. in Finance, Florida International University (2023)\n\n Download my CV (PDF)\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of academic and work projects. Click any card for the full story, or use the categories to filter. Course code stays private while classes are in session, and work projects are described without company data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCareer Evaluation Website\n\n\n\nSchool\n\nTeam project\n\nBig Data\n\n\n\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Market Analytics with Apache Spark\n\n\n\nSchool\n\nBig Data\n\nAWS\n\n\n\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nZurich Airbnb Classification\n\n\n\nSchool\n\nTeam project\n\nMachine Learning\n\n\n\nKNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines.\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\n\n\n\nWork\n\nAutomation\n\nPython\n\n\n\nA reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\n\n\n\nWork\n\nBusiness Intelligence\n\n\n\nA Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "A selection of academic and work projects. Click any card for the full story, or use the categories to filter.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCareer Evaluation Website\n\n\n\nSchool\n\nTeam project\n\nBig Data\n\n\n\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand in Computer Systems Design.\n\n\n\n\n\n\n\n\n\n\n\n\nJob Market Analytics with Apache Spark\n\n\n\nSchool\n\nBig Data\n\nAWS\n\n\n\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns.\n\n\n\n\n\n\n\n\n\n\n\n\nZurich Airbnb Classification\n\n\n\nSchool\n\nTeam project\n\nMachine Learning\n\n\n\nKNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines.\n\n\n\n\n\n\n\n\n\n\n\n\nWeekly Planning File Consolidation\n\n\n\nWork\n\nAutomation\n\nPython\n\n\n\nA reusable Python script that combines ship-by-ship planning tabs into one clean weekly dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nGuest Satisfaction Dashboard\n\n\n\nWork\n\nBusiness Intelligence\n\n\n\nA Power BI dashboard connected live to Databricks that brings guest satisfaction results into one place.\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]
