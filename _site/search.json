@@ -21,11 +21,11 @@
     "text": "Featured projects\n\n\n\n\nCareer Evaluation Website\nA team-built site that helps analytics job seekers compare roles, salaries and skill demand, powered by a pipeline I built on 504,208 job postings.\n\n\n\n\n\nJob Market Analytics with Apache Spark\nStar schemas, Spark SQL and PySpark cleaning on AWS EC2, with Plotly charts of salary patterns by industry, education and experience.\n\n\n\nSee all projects"
   },
   {
-    "objectID": "index.html#right-now",
-    "href": "index.html#right-now",
+    "objectID": "index.html#recent-focus",
+    "href": "index.html#recent-focus",
     "title": "I'm Juan Franco",
-    "section": "Right now",
-    "text": "Right now\nI’m finishing my M.S. at Boston University with Big Data and Cloud Analytics, working with PySpark, AWS and Spark ML on a team project that maps the job market for analytics roles. At work, I’m automating more of our weekly planning data with Python."
+    "section": "Recent focus",
+    "text": "Recent focus\nIn Big Data and Cloud Analytics at Boston University, I used PySpark, AWS and Spark ML to help build a team website that maps the job market for analytics roles. At work, I’m automating more of our weekly planning data with Python."
   },
   {
     "objectID": "about.html",
@@ -81,7 +81,7 @@
     "href": "about.html#skills",
     "title": "About Me",
     "section": "Skills",
-    "text": "Skills\nProgramming and databases Python R and RStudio SQL PostgreSQL MySQL Oracle SQL Developer PySpark Spark SQL pandas NumPy Matplotlib Seaborn scikit-learn Plotly Coding\nAI and machine learning Artificial Intelligence (AI) Machine Learning Deep Learning Data Mining Classification Data Science\nStatistics and modeling Statistics Statistical Analysis (t-tests, chi-square, correlations) Statistical Modeling Statistical and Quantitative Analysis Quantitative Modeling Quantitative Analytics A/B Testing and Experimentation Sampling and Bootstrapping Monte Carlo Simulation Computer Simulations Optimization Excel Solver Forecasting Exploratory Data Analysis (EDA) Data Modeling Relational Data Modeling\nBusiness intelligence and visualization Microsoft Power BI DAX Power Query Power Pivot Tableau Dashboards KPIs Data Visualization Reporting, Insights and Data Storytelling Business Intelligence (BI)\nCloud and tools Cloud Analytics AWS EC2 Apache Spark Databricks Git and GitHub Quarto Web Design Microsoft Excel Pivot Tables XLOOKUP Microsoft PowerPoint\nAnalysis Data Analysis Data Analytics Business Analysis Analytical Skills\nFinance Financial Analysis Financial Modeling 3-Statement Modeling DCF Valuation Leveraged Buyouts (LBO) Valuation Modeling Investment Valuation Financial Statement Analysis Capital Structure Budgeting Risk Management Business Strategy and Financial Evaluation Investments Stocks Bonds Options ETFs Finance Financial Accounting Management Accounting U.S. GAAP Income Tax Macroeconomics Microeconomics\nBusiness and communication Strategic Planning Business Administration Communication Public Relations Attention to Detail English and Spanish"
+    "text": "Skills\n\nProgramming and data Python SQL R PySpark Spark SQL pandas NumPy scikit-learn\nMachine learning and AI Machine Learning Deep Learning Generative AI Classification Data Mining\nStatistics and modeling Statistical Modeling Forecasting A/B Testing and Experimentation Monte Carlo Simulation Exploratory Data Analysis (EDA) Data Modeling Financial Modeling\nBusiness intelligence Power BI DAX Power Query Tableau Plotly\nCloud and tools AWS Apache Spark Databricks Git and GitHub Advanced Excel\nLanguages: English and Spanish"
   },
   {
     "objectID": "about.html#outside-of-work",
@@ -116,7 +116,7 @@
     "href": "projects/planning-file-consolidation.html#what-i-learned",
     "title": "Weekly Planning File Consolidation",
     "section": "What I learned",
-    "text": "What I learned\nReal-world text is messy. A good automation script has to expect variations, like abbreviations and spelling differences, instead of assuming every source follows the same format.\nDetails are kept general to protect company data.\nBack to projects"
+    "text": "What I learned\nReal-world text is messy. A good automation script has to expect variations, like abbreviations and spelling differences, instead of assuming every source follows the same format.\nAs a current employee, I’m not allowed to disclose additional details or specific datasets from the company.\nBack to projects"
   },
   {
     "objectID": "projects/guest-satisfaction-dashboard.html#the-problem",
@@ -144,7 +144,7 @@
     "href": "projects/guest-satisfaction-dashboard.html#what-i-learned",
     "title": "Guest Satisfaction Dashboard",
     "section": "What I learned",
-    "text": "What I learned\nLive connections are powerful but come with trade-offs. With DirectQuery, every click sends a query, so measure design and model structure matter a lot more for performance than they do with imported data.\nDetails are kept general to protect company data.\nBack to projects"
+    "text": "What I learned\nLive connections are powerful but come with trade-offs. With DirectQuery, every click sends a query, so measure design and model structure matter a lot more for performance than they do with imported data.\nAs a current employee, I’m not allowed to disclose additional details or specific datasets from the company.\nBack to projects"
   },
   {
     "objectID": "projects/career-site.html#the-problem",
@@ -207,7 +207,7 @@
     "href": "projects/spark-job-market.html#what-i-learned",
     "title": "Job Market Analytics with Apache Spark",
     "section": "What I learned",
-    "text": "What I learned\nWorking at scale changes your habits. I now check data quality before modeling, keep the raw data untouched and expect infrastructure issues, like memory and sessions, to be part of the job rather than a surprise.\nThe code stays private while the course is in session.\nBack to projects"
+    "text": "What I learned\nWorking at scale changes your habits. I now check data quality before modeling, keep the raw data untouched and expect infrastructure issues, like memory and sessions, to be part of the job rather than a surprise.\nThe code stays private under the course’s academic integrity policy.\nBack to projects"
   },
   {
     "objectID": "projects/competitor-deployment-explorer.html#the-problem",
@@ -242,7 +242,7 @@
     "href": "projects/competitor-deployment-explorer.html#what-i-learned",
     "title": "Competitor Deployment Explorer",
     "section": "What I learned",
-    "text": "What I learned\nI owned the business questions, data rules and success criteria, and I reviewed every output against what I know from operations. That review caught issues like unrealistic canal routings and misclassified sailings. I used Claude as a coding assistant to speed up the build. My biggest takeaway: AI makes building faster, but domain knowledge is what makes the results trustworthy.\nDetails are kept general to protect company data.\nBack to projects"
+    "text": "What I learned\nI owned the business questions, data rules and success criteria, and I reviewed every output against what I know from operations. That review caught issues like unrealistic canal routings and misclassified sailings. I used Claude as a coding assistant to speed up the build. My biggest takeaway: AI makes building faster, but domain knowledge is what makes the results trustworthy.\nAs a current employee, I’m not allowed to disclose additional details or specific datasets from the company.\nBack to projects"
   },
   {
     "objectID": "projects/zurich-airbnb.html#the-problem",
@@ -270,7 +270,7 @@
     "href": "projects/zurich-airbnb.html#what-i-learned",
     "title": "Zurich Airbnb Classification",
     "section": "What I learned",
-    "text": "What I learned\nAlways report the baseline. A model with 60% accuracy sounds fine until you see that guessing the most common answer gets you 59%. Comparing against a naive benchmark keeps the results honest.\nBack to projects"
+    "text": "What I learned\nAlways report the baseline. A model with 60% accuracy sounds fine until you see that guessing the most common answer gets you 59%. Comparing against a naive benchmark keeps the results honest.\nView the presentation (PDF) Download the PowerPoint Back to projects"
   },
   {
     "objectID": "cv.html",

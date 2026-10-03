@@ -46,6 +46,6 @@ Working at scale changes your habits. I now check data quality before modeling,
 keep the raw data untouched and expect infrastructure issues, like memory and
 sessions, to be part of the job rather than a surprise.
 
-*The code stays private while the course is in session.*
+*The code stays private under the course's academic integrity policy.*
 
 [Back to projects](../projects.qmd){.btn .btn-outline-secondary}

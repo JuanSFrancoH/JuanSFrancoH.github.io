@@ -11,7 +11,7 @@ categories: [School, Team project, Big Data]
 ::: {.project-facts}
 **My role:** data pipeline, cleaning and literature review<br>
 **Team:** 3 members<br>
-**Status:** in progress, final version due October 2026<br>
+**Site:** published on GitHub Pages<br>
 **Tools:** [Python]{.tag} [PySpark]{.tag} [pandas]{.tag} [AWS EC2]{.tag} [Quarto]{.tag} [GitHub Pages]{.tag}
 :::
 

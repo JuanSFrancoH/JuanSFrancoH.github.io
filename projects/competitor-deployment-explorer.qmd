@@ -81,6 +81,7 @@ like unrealistic canal routings and misclassified sailings. I used Claude as a
 coding assistant to speed up the build. My biggest takeaway: AI makes building
 faster, but domain knowledge is what makes the results trustworthy.
 
-*Details are kept general to protect company data.*
+*As a current employee, I'm not allowed to disclose additional details or
+specific datasets from the company.*
 
 [Back to projects](../projects.qmd){.btn .btn-outline-secondary}

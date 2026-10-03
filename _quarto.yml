@@ -3,6 +3,8 @@ project:
   output-dir: _site
   resources:
     - files/Juan_Franco_CV.pdf
+    - files/Zurich_Airbnb_Classification.pdf
+    - files/Zurich_Airbnb_Classification.pptx
 
 execute:
   freeze: auto
@@ -35,7 +37,7 @@ website:
         href: https://www.linkedin.com/in/juansfrancoh
         aria-label: LinkedIn
   page-footer:
-    left: "© 2026 Juan Franco · Built with Quarto"
+    left: "© 2026 Juan Franco · Built with Quarto · [Source code](https://github.com/JuanSFrancoH/JuanSFrancoH.github.io)"
     right:
       - icon: github
         href: https://github.com/JuanSFrancoH

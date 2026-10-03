@@ -129,29 +129,24 @@ Dean's List and member of The National Society of Leadership and Success. Course
 
 ## Skills
 
-[Programming and databases]{.skill-group}
-[Python]{.tag} [R and RStudio]{.tag} [SQL]{.tag} [PostgreSQL]{.tag} [MySQL]{.tag} [Oracle SQL Developer]{.tag} [PySpark]{.tag} [Spark SQL]{.tag} [pandas]{.tag} [NumPy]{.tag} [Matplotlib]{.tag} [Seaborn]{.tag} [scikit-learn]{.tag} [Plotly]{.tag} [Coding]{.tag}
+<!-- Top 30 skills -->
 
-[AI and machine learning]{.skill-group}
-[Artificial Intelligence (AI)]{.tag} [Machine Learning]{.tag} [Deep Learning]{.tag} [Data Mining]{.tag} [Classification]{.tag} [Data Science]{.tag}
+[Programming and data]{.skill-group}
+[Python]{.tag} [SQL]{.tag} [R]{.tag} [PySpark]{.tag} [Spark SQL]{.tag} [pandas]{.tag} [NumPy]{.tag} [scikit-learn]{.tag}
+
+[Machine learning and AI]{.skill-group}
+[Machine Learning]{.tag} [Deep Learning]{.tag} [Generative AI]{.tag} [Classification]{.tag} [Data Mining]{.tag}
 
 [Statistics and modeling]{.skill-group}
-[Statistics]{.tag} [Statistical Analysis (t-tests, chi-square, correlations)]{.tag} [Statistical Modeling]{.tag} [Statistical and Quantitative Analysis]{.tag} [Quantitative Modeling]{.tag} [Quantitative Analytics]{.tag} [A/B Testing and Experimentation]{.tag} [Sampling and Bootstrapping]{.tag} [Monte Carlo Simulation]{.tag} [Computer Simulations]{.tag} [Optimization]{.tag} [Excel Solver]{.tag} [Forecasting]{.tag} [Exploratory Data Analysis (EDA)]{.tag} [Data Modeling]{.tag} [Relational Data Modeling]{.tag}
+[Statistical Modeling]{.tag} [Forecasting]{.tag} [A/B Testing and Experimentation]{.tag} [Monte Carlo Simulation]{.tag} [Exploratory Data Analysis (EDA)]{.tag} [Data Modeling]{.tag} [Financial Modeling]{.tag}
 
-[Business intelligence and visualization]{.skill-group}
-[Microsoft Power BI]{.tag} [DAX]{.tag} [Power Query]{.tag} [Power Pivot]{.tag} [Tableau]{.tag} [Dashboards]{.tag} [KPIs]{.tag} [Data Visualization]{.tag} [Reporting, Insights and Data Storytelling]{.tag} [Business Intelligence (BI)]{.tag}
+[Business intelligence]{.skill-group}
+[Power BI]{.tag} [DAX]{.tag} [Power Query]{.tag} [Tableau]{.tag} [Plotly]{.tag}
 
 [Cloud and tools]{.skill-group}
-[Cloud Analytics]{.tag} [AWS EC2]{.tag} [Apache Spark]{.tag} [Databricks]{.tag} [Git and GitHub]{.tag} [Quarto]{.tag} [Web Design]{.tag} [Microsoft Excel]{.tag} [Pivot Tables]{.tag} [XLOOKUP]{.tag} [Microsoft PowerPoint]{.tag}
+[AWS]{.tag} [Apache Spark]{.tag} [Databricks]{.tag} [Git and GitHub]{.tag} [Advanced Excel]{.tag}
 
-[Analysis]{.skill-group}
-[Data Analysis]{.tag} [Data Analytics]{.tag} [Business Analysis]{.tag} [Analytical Skills]{.tag}
-
-[Finance]{.skill-group}
-[Financial Analysis]{.tag} [Financial Modeling]{.tag} [3-Statement Modeling]{.tag} [DCF Valuation]{.tag} [Leveraged Buyouts (LBO)]{.tag} [Valuation Modeling]{.tag} [Investment Valuation]{.tag} [Financial Statement Analysis]{.tag} [Capital Structure]{.tag} [Budgeting]{.tag} [Risk Management]{.tag} [Business Strategy and Financial Evaluation]{.tag} [Investments]{.tag} [Stocks]{.tag} [Bonds]{.tag} [Options]{.tag} [ETFs]{.tag} [Finance]{.tag} [Financial Accounting]{.tag} [Management Accounting]{.tag} [U.S. GAAP]{.tag} [Income Tax]{.tag} [Macroeconomics]{.tag} [Microeconomics]{.tag}
-
-[Business and communication]{.skill-group}
-[Strategic Planning]{.tag} [Business Administration]{.tag} [Communication]{.tag} [Public Relations]{.tag} [Attention to Detail]{.tag} [English and Spanish]{.tag}
+**Languages:** English and Spanish
 
 ## Outside of work
 

@@ -37,6 +37,7 @@ Live connections are powerful but come with trade-offs. With DirectQuery, every
 click sends a query, so measure design and model structure matter a lot more
 for performance than they do with imported data.
 
-*Details are kept general to protect company data.*
+*As a current employee, I'm not allowed to disclose additional details or
+specific datasets from the company.*
 
 [Back to projects](../projects.qmd){.btn .btn-outline-secondary}

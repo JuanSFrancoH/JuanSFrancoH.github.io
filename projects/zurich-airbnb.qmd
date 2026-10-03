@@ -2,11 +2,11 @@
 title: "Zurich Airbnb Classification"
 subtitle: "Team project · AD699 Data Mining for Business Analytics · Boston University"
 description: "KNN and pruned decision tree models on 2,534 Zurich Airbnb listings, tested against honest baselines."
-image: ../images/projects/zurich_banner.svg
+image: ../images/projects/zurich_slide.jpg
 categories: [School, Team project, Machine Learning]
 ---
 
-![](../images/projects/zurich_banner.svg){fig-alt="Zurich Airbnb Classification title banner"}
+![](../images/projects/zurich_slide.jpg){fig-alt="Slide showing KNN cross-validation accuracy by k"}
 
 ::: {.project-facts}
 **My role:** classification models (KNN and decision tree)<br>
@@ -49,4 +49,6 @@ Always report the baseline. A model with 60% accuracy sounds fine until you see
 that guessing the most common answer gets you 59%. Comparing against a naive
 benchmark keeps the results honest.
 
+[View the presentation (PDF)](../files/Zurich_Airbnb_Classification.pdf){.btn .btn-primary}
+[Download the PowerPoint](../files/Zurich_Airbnb_Classification.pptx){.btn .btn-outline-primary}
 [Back to projects](../projects.qmd){.btn .btn-outline-secondary}
